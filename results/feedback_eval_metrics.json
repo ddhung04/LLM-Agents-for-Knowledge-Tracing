@@ -1,0 +1,18 @@
+{
+  "correctness_score": {
+    "mean": 3.93,
+    "std": 0.68
+  },
+  "relevance_score": {
+    "mean": 3.93,
+    "std": 0.73
+  },
+  "clarity_score": {
+    "mean": 4.0,
+    "std": 0.68
+  },
+  "overall": {
+    "mean": 3.96,
+    "std": 0.63
+  }
+}

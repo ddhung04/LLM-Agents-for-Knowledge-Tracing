@@ -1,0 +1,13 @@
+{
+  "total_incorrect_turns": 46,
+  "successful_parses": 42,
+  "failed_parses": 4,
+  "error_type_distribution": {
+    "conceptual": 30,
+    "procedural": 10,
+    "other": 4,
+    "careless": 1,
+    "calculation": 1
+  },
+  "elapsed_minutes": 13.78
+}

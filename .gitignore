@@ -1,8 +1,48 @@
+# Python
+__pycache__/
 *.pyc
-data/src/ATC
-data/src/mathdial
-data/src/*.csv
-data/src/*.json
-results/**/*.json
-results/**/*.txt
-results/**/*.csv
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Model weights & checkpoints (quá nặng)
+saved_models/
+*.bin
+*.safetensors
+*.gguf
+
+# Data gốc
+# data/src/ATC
+# data/src/mathdial
+# data/src/*.csv
+# data/src/*.json
+
+# Results raw
+# results/**/*.json
+# results/**/*.txt
+# results/**/*.csv
+# results/**/*.png  
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key

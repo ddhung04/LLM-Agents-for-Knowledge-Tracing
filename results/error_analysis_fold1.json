@@ -1,0 +1,866 @@
+[
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the definition of a complement of an angle, which is to subtract the given angle from 90 degrees, not to subtract 90 degrees from the given angle.",
+    "affected_concepts": [
+      "definition of complement of an angle"
+    ],
+    "severity": "high",
+    "suggestion": "Remember, the complement of an angle is 90 degrees minus the angle itself, so try again with the correct formula.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the definition of a complement of an angle, which is to subtract the given angle from 90 degrees, not to subtract 90 degrees from the given angle.\",\n    \"affected_concepts\": [\"definition of complement of an angle\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Remember, the complement of an angle is 90 degrees minus the angle itself, so try again with the correct formula.\"\n}",
+    "dialogue_idx": 28,
+    "turn_idx": 2,
+    "teacher_text": "Superb! Now, let's use that understanding. If angle A is \\(90 - x\\), what would be the complement of angle A? Keep in mind, the complement of an angle is \\(90\\) degrees minus the angle.",
+    "student_text": "90 - 90-x",
+    "kcs": [
+      "Use facts about supplementary, complementary, vertical, and adjacent angles in a multi-step problem to write and solve simple equations for an unknown angle in a figure."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student incorrectly applied the distributive property to the equation, resulting in an incorrect simplification.",
+    "affected_concepts": [
+      "Apply the properties of operations to generate equivalent expressions",
+      "Solve linear equations and inequalities in one variable"
+    ],
+    "severity": "medium",
+    "suggestion": "To simplify the equation, the student should have first multiplied the 5 by the x on the right side, resulting in 5x + 240, before attempting to combine like terms.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student incorrectly applied the distributive property to the equation, resulting in an incorrect simplification.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\", \"Solve linear equations and inequalities in one variable\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"To simplify the equation, the student should have first multiplied the 5 by the x on the right side, resulting in 5x + 240, before attempting to combine like terms.\"\n}",
+    "dialogue_idx": 74,
+    "turn_idx": 2,
+    "teacher_text": "Excellent! Now, let's find the value of \\(x\\). What's the initial step you would take to simplify this equation?",
+    "student_text": "1/2x=5/2x+32",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.",
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.",
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.",
+      "Solve multi-step real-life and mathematical problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals), using tools strategically. Apply properties of operations to calculate with numbers in any form; convert between forms as appropriate; and assess the reasonableness of answers using mental computation and estimation strategies. For example: If a woman making $25 an hour gets a 10% raise, she will make an additional 1/10 of her salary an hour, or $2.50, for a new salary of $27.50. If you want to place a towel bar 9 3/4 inches long in the center of a door that is 27 1/2 inches wide, you will need to place the bar about 9 inches from each edge; this estimate can be used as a check on the exact computation.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student incorrectly applied the sum identity for sine by not following the correct order of operations and not simplifying the expression.",
+    "affected_concepts": [
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems"
+    ],
+    "severity": "high",
+    "suggestion": "Carefully substitute the given values into the sum identity for sine and simplify the expression step by step.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student incorrectly applied the sum identity for sine by not following the correct order of operations and not simplifying the expression.\",\n    \"affected_concepts\": [\"Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Carefully substitute the given values into the sum identity for sine and simplify the expression step by step.\"\n}",
+    "dialogue_idx": 110,
+    "turn_idx": 3,
+    "teacher_text": "Exactly right! You've nailed it! \\(\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)\\). This is the correct sum identity for sine. \n\nNow, let's try a problem. If \\(a = \\frac{\\pi}{6}\\) and \\(b = \\frac{\\pi}{4}\\), can you calculate the value of \\(\\sin(a + b)\\) using the identity you just provided?",
+    "student_text": "\\(\\sqrt{\\frac{3}{2}}+\\sqrt{\\frac{2}{2}}+\\frac{1}{2}+\\sqrt{\\frac{3}{2}}\\)",
+    "kcs": [
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.",
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student is unsure about the correct procedure to follow after substituting the given values into the sum identity for sine, indicating a misunderstanding of the procedural steps involved in applying the identity.",
+    "affected_concepts": [
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems"
+    ],
+    "severity": "medium",
+    "suggestion": "Review the procedural steps involved in applying trigonometric identities, emphasizing the importance of substituting given values into the formula and then simplifying the expression.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student is unsure about the correct procedure to follow after substituting the given values into the sum identity for sine, indicating a misunderstanding of the procedural steps involved in applying the identity.\",\n    \"affected_concepts\": [\"Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Review the procedural steps involved in applying trigonometric identities, emphasizing the importance of substituting given values into the formula and then simplifying the expression.\"\n}",
+    "dialogue_idx": 110,
+    "turn_idx": 4,
+    "teacher_text": "Hmm, it seems there might be a slight error in your calculation. Let's go through it step by step. \n\nFirstly, we know that \\(\\sin(\\frac{\\pi}{6}) = \\frac{1}{2}\\), \\(\\cos(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}\\), \\(\\cos(\\frac{\\pi}{6}) = \\frac{\\sqrt{3}}{2}\\), and \\(\\sin(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}\\). \n\nNow, let's substitute these values into the sum identity for sine. What do you get?",
+    "student_text": "can you clarify what you mean? do I substitute those values back into the equation or do I add them together",
+    "kcs": [
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.",
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student incorrectly combined the values in the equation, failing to properly apply the distributive property and resulting in an incorrect expression.",
+    "affected_concepts": [
+      "addition and subtraction formulas for sine, cosine, and tangent"
+    ],
+    "severity": "high",
+    "suggestion": "Carefully apply the distributive property to simplify the expression before substituting the known values.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student incorrectly combined the values in the equation, failing to properly apply the distributive property and resulting in an incorrect expression.\",\n    \"affected_concepts\": [\"addition and subtraction formulas for sine, cosine, and tangent\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Carefully apply the distributive property to simplify the expression before substituting the known values.\"\n}",
+    "dialogue_idx": 110,
+    "turn_idx": 5,
+    "teacher_text": "Sure, let's simplify it. \n\nWe know that \\(\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)\\). \n\nSo, we substitute the values we know into this equation. That means wherever we see \\(a\\), we replace it with \\(\\frac{\\pi}{6}\\), and wherever we see \\(b\\), we replace it with \\(\\frac{\\pi}{4}\\). \n\nSo, \\(\\sin(a + b)\\) becomes \\(\\sin(\\frac{\\pi}{6})\\cos(\\frac{\\pi}{4}) + \\cos(\\frac{\\pi}{6})\\sin(\\frac{\\pi}{4})\\). \n\nNow, we know that \\(\\sin(\\frac{\\pi}{6}) = \\frac{1}{2}\\), \\(\\cos(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}\\), \\(\\cos(\\frac{\\pi}{6}) = \\frac{\\sqrt{3}}{2}\\), and \\(\\sin(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}\\). \n\nSo, we replace these values in our equation. \n\nWhat do you get when you do that?",
+    "student_text": "(1+2  \\(\\left(\\sqrt{2}+\\sqrt{3}\\right)\\)",
+    "kcs": [
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.",
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student failed to recognize that the given identity is an equation, not an equality to be established, and thus should not be'made equal' to a specific expression.",
+    "affected_concepts": [
+      "Pythagorean identity, trigonometric equations"
+    ],
+    "severity": "medium",
+    "suggestion": "First, identify the goal of the problem: to validate the given identity, which means showing that it is always true for all values of x.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student failed to recognize that the given identity is an equation, not an equality to be established, and thus should not be'made equal' to a specific expression.\",\n    \"affected_concepts\": [\"Pythagorean identity, trigonometric equations\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"First, identify the goal of the problem: to validate the given identity, which means showing that it is always true for all values of x.\"\n}",
+    "dialogue_idx": 79,
+    "turn_idx": 2,
+    "teacher_text": "Excellent! Now, suppose we have an identity to validate, such as \\(\\tan^2(x) + 1 = \\sec^2(x)\\). What would be your first step?",
+    "student_text": "make the left side equal to sec^2",
+    "kcs": [
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student correctly identified the conversion ratio but failed to apply it by not performing the multiplication.",
+    "affected_concepts": [
+      "Know relative sizes of measurement units within one system of units..."
+    ],
+    "severity": "low",
+    "suggestion": "Remember to multiply the given value by the conversion ratio to get the correct result.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student correctly identified the conversion ratio but failed to apply it by not performing the multiplication.\",\n    \"affected_concepts\": [\"Know relative sizes of measurement units within one system of units...\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Remember to multiply the given value by the conversion ratio to get the correct result.\"\n}",
+    "dialogue_idx": 135,
+    "turn_idx": 2,
+    "teacher_text": "Excellent! Now, let's apply that conversion ratio. Can you figure out the number of degrees in 4 radians?",
+    "student_text": "4 times 180/pi",
+    "kcs": [
+      "Know relative sizes of measurement units within one system of units including km, m, cm; kg, g; lb, oz.; l, ml; hr, min, sec. Within a single system of measurement, express measurements in a larger unit in terms of a smaller unit. Record measurement equivalents in a two column table. For example, know that 1 ft is 12 times as long as 1 in. Express the length of a 4 ft snake as 48 in. Generate a conversion table for feet and inches listing the number pairs (1, 12), (2, 24), (3, 36), ...",
+      "Convert among different-sized standard measurement units within a given measurement system (e.g., convert 5 cm to 0.05 m), and use these conversions in solving multi-step, real world problems.",
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly stated the Pythagorean identity as sin^2x + cos^2x instead of 1, which is a fundamental concept in trigonometry.",
+    "affected_concepts": [
+      "Pythagorean identity, trigonometric relationships"
+    ],
+    "severity": "high",
+    "suggestion": "Recall that the Pythagorean identity is actually sin^2x + cos^2x = 1, not just sin^2x + cos^2x.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly stated the Pythagorean identity as sin^2x + cos^2x instead of 1, which is a fundamental concept in trigonometry.\",\n    \"affected_concepts\": [\"Pythagorean identity, trigonometric relationships\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Recall that the Pythagorean identity is actually sin^2x + cos^2x = 1, not just sin^2x + cos^2x.\"\n}",
+    "dialogue_idx": 149,
+    "turn_idx": 1,
+    "teacher_text": "Okay, let's work through this trigonometric equation step by step! \n\nFirstly, can you recall the Pythagorean identity for cosine and sine?",
+    "student_text": "yes sin^2x+cos^2x",
+    "kcs": [
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle."
+    ]
+  },
+  {
+    "success": false,
+    "error_type": "other",
+    "explanation": "Failed to parse LLM response",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student is asking the teacher to demonstrate the x-factor technique, but they should be asking for the specific step of multiplying the coefficient of \\(x^2\\) with the constant term, which is a crucial procedural step.\",\n    \"affected_concepts\": [\"Choosing and producing an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Instead of asking the teacher to demonstrate the entire technique, ask for the specific step of multiplying the coefficient of \\(x^2\\) with the constant term.\"\n}",
+    "dialogue_idx": 15,
+    "turn_idx": 2,
+    "teacher_text": "Alright, let's delve into the x-factor technique! It's an interesting method to factor quadratic equations like \\(2x^2 - x - 6\\). \n\nStep 1: We start by multiplying the coefficient of \\(x^2\\) (which is 2 here) with the constant term (which is -6 here). Can you tell me what you get when you multiply these two numbers?",
+    "student_text": "can you demonstrate the x-factor technique (not explain)?",
+    "kcs": [
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "careless",
+    "explanation": "The student's request to demonstrate is not an error in the mathematical process, but rather a request for a different presentation style.",
+    "affected_concepts": [
+      "Interpret products of whole numbers"
+    ],
+    "severity": "low",
+    "suggestion": "Instead of asking the teacher to demonstrate, the student could ask for a visual representation or a step-by-step guide to help them understand the process.",
+    "raw_response": "{\n    \"error_type\": \"careless\",\n    \"explanation\": \"The student's request to demonstrate is not an error in the mathematical process, but rather a request for a different presentation style.\",\n    \"affected_concepts\": [\"Interpret products of whole numbers\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Instead of asking the teacher to demonstrate, the student could ask for a visual representation or a step-by-step guide to help them understand the process.\"\n}",
+    "dialogue_idx": 15,
+    "turn_idx": 3,
+    "teacher_text": "Sure, let's do it together! \n\nFirst, we multiply the coefficient of \\(x^2\\) (which is 2) with the constant term (which is -6). \n\nCan you do this multiplication for me?",
+    "student_text": "I want you to demonstrate",
+    "kcs": [
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.",
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+    ]
+  },
+  {
+    "success": false,
+    "error_type": "other",
+    "explanation": "Failed to parse LLM response",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student is asking for a demonstration of the x-factor technique, but the teacher has already explained it multiple times. The student is not following the steps to factor the quadratic equation.\",\n    \"affected_concepts\": [\"Interpret products of whole numbers\", \"Use multiplication and division within 100 to solve word problems\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Please follow the steps to factor the quadratic equation, starting with multiplying the coefficient of \\(x^2\\) (2) with the constant term (-6).\"\n}",
+    "dialogue_idx": 15,
+    "turn_idx": 4,
+    "teacher_text": "Alright! Let's do this together, step by step. \n\nFirst, we multiply the coefficient of \\(x^2\\) (which is 2) with the constant term (which is -6). \n\nWhat do you get when you multiply 2 and -6?",
+    "student_text": "Please demonstrate the x-factor technique.  You are only explaining it, which is not helpful.  I want you to show me visually, please",
+    "kcs": [
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.",
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student is frustrated with the teacher's explanation method, but the actual issue is that the student is not following the correct steps of the x-factor technique.",
+    "affected_concepts": [
+      "Interpret products of whole numbers",
+      "Use multiplication and division within 100 to solve word problems"
+    ],
+    "severity": "medium",
+    "suggestion": "Please focus on the steps of the x-factor technique and let the teacher guide you through the process.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student is frustrated with the teacher's explanation method, but the actual issue is that the student is not following the correct steps of the x-factor technique.\",\n    \"affected_concepts\": [\"Interpret products of whole numbers\", \"Use multiplication and division within 100 to solve word problems\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Please focus on the steps of the x-factor technique and let the teacher guide you through the process.\"\n}",
+    "dialogue_idx": 15,
+    "turn_idx": 5,
+    "teacher_text": "I understand, you'd like to see the process visually. Let's sketch it out together!\n\nFirst, we have our quadratic equation: \\(2x^2 - x - 6\\).\n\nWe'll start by multiplying the coefficient of \\(x^2\\) (which is 2) with the constant term (which is -6). \n\nCan you draw two groups of -6 on your paper and tell me what you get?",
+    "student_text": "You are not demonstrating - that is not helpful and not what I asked for.  Please draw the X and show me how to do this.",
+    "kcs": [
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.",
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student is frustrated because the teacher is not providing a visual demonstration of the X-factor technique, but the teacher is actually trying to guide the student through the process.",
+    "affected_concepts": [
+      "Representing and interpreting expressions and equations"
+    ],
+    "severity": "low",
+    "suggestion": "Student, let's take a deep breath and try to understand the process together. I'll guide you through it, and we'll get to the visual demonstration soon.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student is frustrated because the teacher is not providing a visual demonstration of the X-factor technique, but the teacher is actually trying to guide the student through the process.\",\n    \"affected_concepts\": [\"Representing and interpreting expressions and equations\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Student, let's take a deep breath and try to understand the process together. I'll guide you through it, and we'll get to the visual demonstration soon.\"\n}",
+    "dialogue_idx": 15,
+    "turn_idx": 6,
+    "teacher_text": "I see you're eager to see the X-factor technique in action! Let's draw an X together. \n\nThe top of the X will be the product of the coefficient of \\(x^2\\) and the constant term. The bottom of the X will be the coefficient of \\(x\\). \n\nCan you fill in the top and bottom of the X with the correct numbers?",
+    "student_text": "why are you refusing to demonstrate?",
+    "kcs": [
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student incorrectly filled in the numbers at the top and bottom of the X, not following the correct order of operations or the specific instructions given by the teacher.",
+    "affected_concepts": [
+      "Choosing and producing equivalent forms of expressions to reveal and explain properties of the quantity represented by the expression"
+    ],
+    "severity": "medium",
+    "suggestion": "Double-check the instructions and the numbers given in the problem before filling them in.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student incorrectly filled in the numbers at the top and bottom of the X, not following the correct order of operations or the specific instructions given by the teacher.\",\n    \"affected_concepts\": [\"Choosing and producing equivalent forms of expressions to reveal and explain properties of the quantity represented by the expression\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Double-check the instructions and the numbers given in the problem before filling them in.\"\n}",
+    "dialogue_idx": 15,
+    "turn_idx": 7,
+    "teacher_text": "I apologize if it seemed like I was refusing. I'm here to guide you through the process. Let's try this again.\n\nWe're factoring \\(2x^2 - x - 6\\) using the X-method. \n\n1. Draw an X. \n2. At the top of the X, write the product of the coefficient of \\(x^2\\) (2) and the constant term (-6). What do you get? \n3. At the bottom of the X, write the coefficient of \\(x\\) (-1).\n\nCan you fill in these numbers?",
+    "student_text": "-12 and 1",
+    "kcs": [
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the distributive property by only considering the subtraction of 2, instead of multiplying 5 by both x and -2.",
+    "affected_concepts": [
+      "Apply the properties of operations to generate equivalent expressions"
+    ],
+    "severity": "high",
+    "suggestion": "Remember to multiply the number outside the parentheses by each term inside the parentheses, not just subtract one term.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the distributive property by only considering the subtraction of 2, instead of multiplying 5 by both x and -2.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Remember to multiply the number outside the parentheses by each term inside the parentheses, not just subtract one term.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 2,
+    "teacher_text": "No problem! You're referring to \"parentheses\", those round brackets. You're correct, we should handle them first. We can do this by distributing the 5 to each term inside the parentheses. Can you try that?",
+    "student_text": "5-2?",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the distributive property by multiplying 5 by -2 as if it were a subtraction operation, rather than a multiplication operation.",
+    "affected_concepts": [
+      "Apply the properties of operations to generate equivalent expressions"
+    ],
+    "severity": "medium",
+    "suggestion": "Remember to multiply 5 by -2 as a multiplication operation, not a subtraction operation.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the distributive property by multiplying 5 by -2 as if it were a subtraction operation, rather than a multiplication operation.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Remember to multiply 5 by -2 as a multiplication operation, not a subtraction operation.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 3,
+    "teacher_text": "Almost there! When we distribute, we multiply each term inside the parentheses by the number outside. So, we multiply 5 by \\(x\\) and 5 by -2. What does that give us?",
+    "student_text": "Ah! 5x-2?",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the concept of distributing a number to terms inside parentheses, instead of multiplying the number by each term.",
+    "affected_concepts": [
+      "Apply the properties of operations to generate equivalent expressions"
+    ],
+    "severity": "low",
+    "suggestion": "Remember to multiply the number outside the parentheses by each term inside, not just add or subtract the terms.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the concept of distributing a number to terms inside parentheses, instead of multiplying the number by each term.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Remember to multiply the number outside the parentheses by each term inside, not just add or subtract the terms.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 4,
+    "teacher_text": "Close, but remember we're multiplying 5 by -2, not subtracting 2 from 5. So, it should be 5x minus what?",
+    "student_text": "Oh I think your confused? I tried to put in \"5 (  \\(x\\) -2)=35! Sorry!!",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student failed to understand the concept of distributing the number outside the parentheses to each term inside, leading to a lack of progress in solving the equation.",
+    "affected_concepts": [
+      "Apply the properties of operations to generate equivalent expressions"
+    ],
+    "severity": "high",
+    "suggestion": "Review the concept of distributing numbers to terms inside parentheses and practice with simple examples to build confidence.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student failed to understand the concept of distributing the number outside the parentheses to each term inside, leading to a lack of progress in solving the equation.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Review the concept of distributing numbers to terms inside parentheses and practice with simple examples to build confidence.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 5,
+    "teacher_text": "No problem at all! We're here to learn together. When we distribute, we multiply the number outside the parentheses (in this case, 5) by each term inside the parentheses. So, we multiply 5 by \\(x\\) and 5 by -2. Can you try that again?",
+    "student_text": "Ah! Okay.",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student is struggling to understand the concept of distributing a number to each term inside the parentheses, which is a fundamental property of operations.",
+    "affected_concepts": [
+      "Apply the properties of operations to generate equivalent expressions"
+    ],
+    "severity": "medium",
+    "suggestion": "Let's review the concept of distributing a number to each term inside the parentheses, and then try to apply it to the given equation.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student is struggling to understand the concept of distributing a number to each term inside the parentheses, which is a fundamental property of operations.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Let's review the concept of distributing a number to each term inside the parentheses, and then try to apply it to the given equation.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 6,
+    "teacher_text": "That's the spirit! So, if we multiply 5 by \\(x\\) and 5 by -2, what do we get?",
+    "student_text": "I am not sure what you mean? Can you please say it in other words, please?",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly assumed that the equation 5 (x-2) = 35 involves multiplying 5 by 2, rather than understanding that the equation requires distributing 5 to each term inside the parentheses.",
+    "affected_concepts": [
+      "Apply the properties of operations to generate equivalent expressions",
+      "Distributive property"
+    ],
+    "severity": "high",
+    "suggestion": "Remember to carefully read and understand the equation before applying operations, and make sure to distribute the number outside the parentheses to each term inside.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly assumed that the equation 5 (x-2) = 35 involves multiplying 5 by 2, rather than understanding that the equation requires distributing 5 to each term inside the parentheses.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\", \"Distributive property\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Remember to carefully read and understand the equation before applying operations, and make sure to distribute the number outside the parentheses to each term inside.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 7,
+    "teacher_text": "Absolutely! Let's break it down. \n\nWhen we say \"distribute\", we mean to multiply the number outside the parentheses by each number inside the parentheses. \n\nSo, for our equation, we have 5 outside the parentheses and \\(x\\) and -2 inside. \n\nWe do two multiplications: \n\n1. 5 times \\(x\\) \n2. 5 times -2 \n\nCan you try these multiplications?",
+    "student_text": "Well 5 x 2 would be 10.",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly repeated the original equation instead of applying the distributive property to generate an equivalent expression.",
+    "affected_concepts": [
+      "Apply the properties of operations to generate equivalent expressions"
+    ],
+    "severity": "high",
+    "suggestion": "Remember to apply the distributive property to the expression 5 (x - 2) to produce an equivalent expression.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly repeated the original equation instead of applying the distributive property to generate an equivalent expression.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Remember to apply the distributive property to the expression 5 (x - 2) to produce an equivalent expression.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 8,
+    "teacher_text": "That's correct! But remember, we're multiplying 5 by -2, not 2. So, it should be -10, not 10. Now, can you try to write the whole equation after distributing 5 to \\(x\\) and -2?",
+    "student_text": "Im sorry! The problem was \"5 (  \\(x\\) - 2) = 35",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ]
+  },
+  {
+    "success": false,
+    "error_type": "other",
+    "explanation": "Failed to parse LLM response",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student failed to apply the distributive property correctly, misunderstanding the concept of multiplying the number outside the parentheses by each term inside.\",\n    \"affected_concepts\": [\"Apply the properties of operations to generate equivalent expressions\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Remember to multiply the number outside the parentheses by each term inside, just like we did with 5 times \\(x\\) and 5 times -2.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 9,
+    "teacher_text": "That's okay! We're here to learn. \n\nWhen we distribute, we multiply the number outside the parentheses (5 in this case) by each term inside the parentheses (\\(x\\) and -2). \n\nSo, we do two multiplications: \n\n1. 5 times \\(x\\) \n2. 5 times -2 \n\nCan you try these multiplications?",
+    "student_text": "not -2",
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student knows the concept of adding 10 to both sides of the equation but fails to apply the correct steps to isolate x.",
+    "affected_concepts": [
+      "Solving linear equations in one variable"
+    ],
+    "severity": "low",
+    "suggestion": "Remember to add 10 to both sides of the equation to isolate x, like this: 5x - 10 + 10 = 35 + 10",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student knows the concept of adding 10 to both sides of the equation but fails to apply the correct steps to isolate x.\",\n    \"affected_concepts\": [\"Solving linear equations in one variable\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Remember to add 10 to both sides of the equation to isolate x, like this: 5x - 10 + 10 = 35 + 10\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 13,
+    "teacher_text": "That's correct! Adding 10 to both sides of the equation will help us isolate \\(x\\). Can you do that and tell me what you get?",
+    "student_text": "Never mind",
+    "kcs": [
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly interpreted the division of 17 by 4, not considering the result as a quotient and possibly a remainder.",
+    "affected_concepts": [
+      "understanding fractions as quantities formed by parts of size 1/b"
+    ],
+    "severity": "low",
+    "suggestion": "Remind the student that dividing 17 by 4 should result in a quotient and possibly a remainder, and encourage them to consider the whole as being partitioned into 4 equal parts.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly interpreted the division of 17 by 4, not considering the result as a quotient and possibly a remainder.\",\n    \"affected_concepts\": [\"understanding fractions as quantities formed by parts of size 1/b\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Remind the student that dividing 17 by 4 should result in a quotient and possibly a remainder, and encourage them to consider the whole as being partitioned into 4 equal parts.\"\n}",
+    "dialogue_idx": 152,
+    "turn_idx": 15,
+    "teacher_text": "Ah, a new question! You're asking about the fraction \\(\\frac{17}{4}\\). This is a division problem. Can you try dividing 17 by 4 and tell me what you get?",
+    "student_text": "4",
+    "kcs": [
+      "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student misunderstood the concept of proportional relationships and how to apply it to the given problem. They divided the total length by the number of parts, but forgot to consider the ratio between the two segments.",
+    "affected_concepts": [
+      "Recognize and represent proportional relationships between quantities"
+    ],
+    "severity": "medium",
+    "suggestion": "Remember, when dividing a line segment in a given ratio, you should consider the ratio between the two segments, not just the total length.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student misunderstood the concept of proportional relationships and how to apply it to the given problem. They divided the total length by the number of parts, but forgot to consider the ratio between the two segments.\",\n    \"affected_concepts\": [\"Recognize and represent proportional relationships between quantities\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Remember, when dividing a line segment in a given ratio, you should consider the ratio between the two segments, not just the total length.\"\n}",
+    "dialogue_idx": 27,
+    "turn_idx": 2,
+    "teacher_text": "Excellent beginning! You've calculated the total length of line segment XZ. Now, how can we use this information to determine the coordinates of point Y? Keep in mind, XY is 3 times as long as YZ.",
+    "student_text": "I would divide 12.8 by 3 total parts.",
+    "kcs": [
+      "Recognize and represent proportional relationships between quantities.",
+      "Find the point on a directed line segment between two given points that partitions the segment in a given ratio."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the multiplication concept, as 7 × 8 is a product of two one-digit numbers and should be memorized as 56, not 46.",
+    "affected_concepts": [
+      "Interpret products of whole numbers",
+      "Fluently multiply and divide within 100"
+    ],
+    "severity": "high",
+    "suggestion": "Double-check your multiplication facts, especially for products of two one-digit numbers.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the multiplication concept, as 7 × 8 is a product of two one-digit numbers and should be memorized as 56, not 46.\",\n    \"affected_concepts\": [\"Interpret products of whole numbers\", \"Fluently multiply and divide within 100\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Double-check your multiplication facts, especially for products of two one-digit numbers.\"\n}",
+    "dialogue_idx": 54,
+    "turn_idx": 2,
+    "teacher_text": "Absolutely correct! You're a whiz at multiplication! Now, let's attempt a slightly larger one. Can you solve \\(7 \\times 8\\)?",
+    "student_text": "46",
+    "kcs": [
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.",
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.",
+      "Fluently multiply and divide within 100, using strategies such as the relationship between multiplication and division (e.g., knowing that 8 × 5 = 40, one knows 40 ÷ 5 = 8) or properties of operations. By the end of Grade 3, know from memory all products of two one-digit numbers."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly identified the angle with a sine value of -1/2, which is actually in the third quadrant, where sine is positive.",
+    "affected_concepts": [
+      "unit circle in the coordinate plane",
+      "special triangles"
+    ],
+    "severity": "high",
+    "suggestion": "Remember that sine is positive in the third quadrant, so the angle should be between π and 3π/2.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly identified the angle with a sine value of -1/2, which is actually in the third quadrant, where sine is positive.\",\n    \"affected_concepts\": [\"unit circle in the coordinate plane\", \"special triangles\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Remember that sine is positive in the third quadrant, so the angle should be between π and 3π/2.\"\n}",
+    "dialogue_idx": 65,
+    "turn_idx": 1,
+    "teacher_text": "We're working with inverse trigonometry here! Let's break it down. Can you remember an angle that has a sine value of -1/2?",
+    "student_text": "7pi/6",
+    "kcs": [
+      "Explain how the unit circle in the coordinate plane enables the extension of trigonometric functions to all real numbers, interpreted as radian measures of angles traversed counterclockwise around the unit circle.",
+      "Use special triangles to determine geometrically the values of sine, cosine, tangent for π/3, π/4 and π/6, and use the unit circle to express the values of sine, cosines, and tangent for π–x, π+x, and 2π–x in terms of their values for x, where x is any real number."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly identified the place value of each digit in the decimal number 0.9998, failing to understand that the digits represent decreasing powers of ten from left to right.",
+    "affected_concepts": [
+      "Recognize that in a multi-digit number, a digit in one place represents 10 times as much as it represents in the place to its right and 1/10 of what it represents in the place to its left"
+    ],
+    "severity": "medium",
+    "suggestion": "Let's re-read the decimal number together and identify the place value of each digit correctly.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly identified the place value of each digit in the decimal number 0.9998, failing to understand that the digits represent decreasing powers of ten from left to right.\",\n    \"affected_concepts\": [\"Recognize that in a multi-digit number, a digit in one place represents 10 times as much as it represents in the place to its right and 1/10 of what it represents in the place to its left\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Let's re-read the decimal number together and identify the place value of each digit correctly.\"\n}",
+    "dialogue_idx": 49,
+    "turn_idx": 1,
+    "teacher_text": "Absolutely! Let's dissect it. What does each digit in 0.9998 stand for?",
+    "student_text": "Reading from left to right, they represent ten thousandths, thousandths, hundredths, and tenths.",
+    "kcs": [
+      "Recognize that in a multi-digit number, a digit in one place represents 10 times as much as it represents in the place to its right and 1/10 of what it represents in the place to its left.",
+      "Read, write, and compare decimals to thousandths."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly assumes that calculating the distance from the kayak to the beacon for both times and subtracting the second time from the first will directly provide the average velocity, which is a measure of rate of change of distance over time.",
+    "affected_concepts": [
+      "understanding of average velocity as a rate of change, similarity of triangles and trigonometric ratios"
+    ],
+    "severity": "medium",
+    "suggestion": "To find the average velocity, you'll need to calculate the change in distance over the change in time, which involves using the distances you find and the given time interval.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly assumes that calculating the distance from the kayak to the beacon for both times and subtracting the second time from the first will directly provide the average velocity, which is a measure of rate of change of distance over time.\",\n    \"affected_concepts\": [\"understanding of average velocity as a rate of change, similarity of triangles and trigonometric ratios\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"To find the average velocity, you'll need to calculate the change in distance over the change in time, which involves using the distances you find and the given time interval.\"\n}",
+    "dialogue_idx": 26,
+    "turn_idx": 2,
+    "teacher_text": "Good job pinpointing the important details! Now, let's consider how we can use this information to solve the problem. We know that the tangent of an angle in a right triangle is the ratio of the opposite side to the adjacent side. How can we use this fact to find the distance from the beacon to the kayak at the two different times?",
+    "student_text": "we can calculate the distance from the kayak to the beacon for both times, and subtract the second time from the first. how do we calculate the average velocity at which the kayak moved toward the beacon?",
+    "kcs": [
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.",
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly used the angles 84 and 35 degrees in the tangent equations, which do not match the initial and final angles of depression provided in the problem.",
+    "affected_concepts": [
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles"
+    ],
+    "severity": "high",
+    "suggestion": "Recall that the initial angle of depression is 6 degrees and the final angle is 55 degrees, and use these angles to set up the tangent equations.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly used the angles 84 and 35 degrees in the tangent equations, which do not match the initial and final angles of depression provided in the problem.\",\n    \"affected_concepts\": [\"Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Recall that the initial angle of depression is 6 degrees and the final angle is 55 degrees, and use these angles to set up the tangent equations.\"\n}",
+    "dialogue_idx": 26,
+    "turn_idx": 3,
+    "teacher_text": "Fantastic! Now, let's use the tangent of the angles to calculate the distances. Remember, the tangent of an angle is the opposite side divided by the adjacent side. In this case, the opposite side is the height difference between the beacon and the kayak, and the adjacent side is the distance from the beacon to the kayak. Can you set up the equations for the two distances using the tangent of the angles?",
+    "student_text": "tan84=x/112 (set the first distance from the kayak to the beacon as x) and tan35=y/112 (set the second distance as y)",
+    "kcs": [
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.",
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student failed to apply the characteristics of the given function to the plotting process, instead suggesting a generic approach.",
+    "affected_concepts": [
+      "Graph functions expressed symbolically and show key features of the graph"
+    ],
+    "severity": "medium",
+    "suggestion": "Use the amplitude, period, phase shift, and vertical shift to guide your plotting process, rather than relying on a generic approach.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student failed to apply the characteristics of the given function to the plotting process, instead suggesting a generic approach.\",\n    \"affected_concepts\": [\"Graph functions expressed symbolically and show key features of the graph\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Use the amplitude, period, phase shift, and vertical shift to guide your plotting process, rather than relying on a generic approach.\"\n}",
+    "dialogue_idx": 116,
+    "turn_idx": 2,
+    "teacher_text": "Excellent! You've nailed the key characteristics of the function. Now, how would you approach plotting this function using these characteristics?",
+    "student_text": "begin by plotting the standard sine function",
+    "kcs": [
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.",
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly stated the direction of the phase shift, which should be to the left by π/2, but the student's response implies it's to the left by π/2 units, which is correct but the student's explanation is incorrect.",
+    "affected_concepts": [
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases",
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline"
+    ],
+    "severity": "low",
+    "suggestion": "Review the concept of phase shift and how it affects the position of the graph on the x-axis.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly stated the direction of the phase shift, which should be to the left by π/2, but the student's response implies it's to the left by π/2 units, which is correct but the student's explanation is incorrect.\",\n    \"affected_concepts\": [\"Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases\", \"Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Review the concept of phase shift and how it affects the position of the graph on the x-axis.\"\n}",
+    "dialogue_idx": 116,
+    "turn_idx": 3,
+    "teacher_text": "You're on the right path! But let's verify the period and phase shift. \n\nThe period of a sine function is usually \\(2\\pi\\), but when there's a coefficient for \\(x\\), like the 2 in \\(2x\\), it alters the period. Can you explain how?\n\nAnd for the phase shift, it's determined by the constant added to \\(x\\) inside the sine function. In this case, it's \\(\\pi\\). How does this influence the phase shift?",
+    "student_text": "the phase shift shifts the function to the left pi/2",
+    "kcs": [
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.",
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student correctly identified the phase shift but failed to apply the correct reasoning for the period. They should have understood that a coefficient greater than 1 compresses the graph, resulting in a period of π, not just stating that it compresses it.",
+    "affected_concepts": [
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases",
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline"
+    ],
+    "severity": "medium",
+    "suggestion": "Remember, when a coefficient is greater than 1, it compresses the graph, so the period becomes π, not just compresses it.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student correctly identified the phase shift but failed to apply the correct reasoning for the period. They should have understood that a coefficient greater than 1 compresses the graph, resulting in a period of π, not just stating that it compresses it.\",\n    \"affected_concepts\": [\"Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases\", \"Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Remember, when a coefficient is greater than 1, it compresses the graph, so the period becomes π, not just compresses it.\"\n}",
+    "dialogue_idx": 116,
+    "turn_idx": 4,
+    "teacher_text": "That's correct! The phase shift is \\(-\\pi / 2\\), which shifts the function to the left by \\(\\pi / 2\\). \n\nNow, let's consider the period. The period of a sine function is usually \\(2\\pi\\), but when there's a coefficient for \\(x\\), like the 2 in \\(2x\\), it alters the period. Can you explain how?",
+    "student_text": "does it compress it?",
+    "kcs": [
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.",
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the period of the function to determine the x-values of the points, not considering that the period is π, which is less than 2π.",
+    "affected_concepts": [
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases"
+    ],
+    "severity": "medium",
+    "suggestion": "Remember that the period of the function is π, so the x-values should be multiples of π, not 2π.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the period of the function to determine the x-values of the points, not considering that the period is π, which is less than 2π.\",\n    \"affected_concepts\": [\"Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Remember that the period of the function is π, so the x-values should be multiples of π, not 2π.\"\n}",
+    "dialogue_idx": 116,
+    "turn_idx": 6,
+    "teacher_text": "Precisely! The period of our function is \\(\\pi\\), not \\(2\\pi\\). \n\nSo, we have an amplitude of 3, a period of \\(\\pi\\), a phase shift of \\(-\\pi / 2\\), and a vertical shift of 1. \n\nNow, how would you use these characteristics to plot the function \\(3\\sin(2x+\\pi)+1\\)?",
+    "student_text": "would the points be (-pi/2, 1) (0,2) (pi/2, 1) (pi, 0) (3pi/2, 1) and (2pi, 2)",
+    "kcs": [
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.",
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "procedural",
+    "explanation": "The student correctly identified the need to calculate the area of the circle but failed to apply the correct formula, specifically squaring the radius.",
+    "affected_concepts": [
+      "Formulas for area and circumference of a circle"
+    ],
+    "severity": "medium",
+    "suggestion": "Remember to square the radius before multiplying by pi to get the correct area.",
+    "raw_response": "{\n    \"error_type\": \"procedural\",\n    \"explanation\": \"The student correctly identified the need to calculate the area of the circle but failed to apply the correct formula, specifically squaring the radius.\",\n    \"affected_concepts\": [\"Formulas for area and circumference of a circle\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Remember to square the radius before multiplying by pi to get the correct area.\"\n}",
+    "dialogue_idx": 107,
+    "turn_idx": 5,
+    "teacher_text": "Perfect! Now, let's use this radius to compute the area of the circle. Can you do that?",
+    "student_text": "Yes, I multiplied by pi",
+    "kcs": [
+      "Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student failed to recognize that the task was to identify the slope and y-intercept of a given equation, not to ask for more challenging problems.",
+    "affected_concepts": [
+      "Identifying slope and y-intercept from slope-intercept equations"
+    ],
+    "severity": "low",
+    "suggestion": "Please focus on solving the problem at hand and provide the slope and y-intercept of the given equation.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student failed to recognize that the task was to identify the slope and y-intercept of a given equation, not to ask for more challenging problems.\",\n    \"affected_concepts\": [\"Identifying slope and y-intercept from slope-intercept equations\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Please focus on solving the problem at hand and provide the slope and y-intercept of the given equation.\"\n}",
+    "dialogue_idx": 103,
+    "turn_idx": 2,
+    "teacher_text": "Correct! The slope \\(m\\) is indeed 3 and the y-intercept \\(b\\) is 2. Well done! \n\nNow, let's proceed to the second problem:\n\n2. Determine the slope and y-intercept of the line represented by the equation \\(y = -4x + 5\\).\n\nCan you spot the slope and y-intercept in this equation?",
+    "student_text": "Do you have more challenging ones?",
+    "kcs": [
+      "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane; derive the equation y = mx for a line through the origin and the equation y = mx + b for a line intercepting the vertical axis at b."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student failed to recognize that the task was to demonstrate the simplification of the trigonometric identity, rather than simply stating a true equation.",
+    "affected_concepts": [
+      "Trigonometric identities, proof of Pythagorean identity"
+    ],
+    "severity": "low",
+    "suggestion": "Start by identifying the trigonometric identity to be proven and explain how it can be simplified to demonstrate its truth.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student failed to recognize that the task was to demonstrate the simplification of the trigonometric identity, rather than simply stating a true equation.\",\n    \"affected_concepts\": [\"Trigonometric identities, proof of Pythagorean identity\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Start by identifying the trigonometric identity to be proven and explain how it can be simplified to demonstrate its truth.\"\n}",
+    "dialogue_idx": 117,
+    "turn_idx": 1,
+    "teacher_text": "Absolutely, let's practice right here! Here's a trigonometric identity problem for you:\n\nConfirm the following trigonometric identity:\n\n\\(\\sin^2(x) + \\cos^2(x) = 1\\)\n\nWhat's your first step?",
+    "student_text": "1 = 1",
+    "kcs": [
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student is relying on a memorized rule rather than understanding the underlying concept. They are not demonstrating how the left side of the equation simplifies to 1.",
+    "affected_concepts": [
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1"
+    ],
+    "severity": "high",
+    "suggestion": "Instead of relying on a memorized rule, try to derive the Pythagorean identity from basic trigonometric definitions and the unit circle.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student is relying on a memorized rule rather than understanding the underlying concept. They are not demonstrating how the left side of the equation simplifies to 1.\",\n    \"affected_concepts\": [\"Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Instead of relying on a memorized rule, try to derive the Pythagorean identity from basic trigonometric definitions and the unit circle.\"\n}",
+    "dialogue_idx": 117,
+    "turn_idx": 2,
+    "teacher_text": "Indeed, the equation \\(1 = 1\\) is true, but we need to demonstrate how the left side of our original equation, \\(\\sin^2(x) + \\cos^2(x)\\), simplifies to 1. How can we do that?",
+    "student_text": "well in my class we just use the established rule that sin^2(x) + cos^2(x) = 1. that means we can transform the left side into 1. i already know all the formulas, i want to try applying them. can you give me a hard problem?",
+    "kcs": [
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student misunderstands the purpose of the problem and the concept of trigonometric identities, which is to simplify or prove an equation, not to work with complex expressions.",
+    "affected_concepts": [
+      "Trigonometric identities, simplifying equations"
+    ],
+    "severity": "high",
+    "suggestion": "Let's focus on simplifying the given trigonometric identity and using it to find the required trigonometric ratios.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student misunderstands the purpose of the problem and the concept of trigonometric identities, which is to simplify or prove an equation, not to work with complex expressions.\",\n    \"affected_concepts\": [\"Trigonometric identities, simplifying equations\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Let's focus on simplifying the given trigonometric identity and using it to find the required trigonometric ratios.\"\n}",
+    "dialogue_idx": 117,
+    "turn_idx": 3,
+    "teacher_text": "Ah, I see you're ready for a challenge! Let's try this one:\n\nConfirm the following trigonometric identity:\n\n\\(\\tan^2(x) + 1 = \\sec^2(x)\\)\n\nWhat's your first step?",
+    "student_text": "no i'm looking for the kind of problem where you have a really complex expression on both sides, and then you use trigonometric identities to prove that the two sides are equal",
+    "kcs": [
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle."
+    ]
+  },
+  {
+    "success": false,
+    "error_type": "other",
+    "explanation": "Failed to parse LLM response",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly identified the initial step to solve the inequality, which is to isolate \\(x\\), by suggesting to add 4 to both sides instead of subtracting 4.\",\n    \"affected_concepts\": [\"Understand solving an equation or inequality as a process of answering a question\", \"Use variables to represent numbers and write expressions when solving a real-world or mathematical problem\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"To isolate \\(x\\), we should subtract 4 from both sides of the inequality to get \\(1/3x < 3\\).\"\n}",
+    "dialogue_idx": 137,
+    "turn_idx": 2,
+    "teacher_text": "Alright, let's work through this inequality together. What's the initial step you believe we should take?",
+    "student_text": "add 4 to both sides",
+    "kcs": [
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.",
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.",
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the operation of multiplying both sides by 3, resulting in a misunderstanding of how to isolate x.",
+    "affected_concepts": [
+      "Solving linear inequalities in one variable",
+      "Using variables to represent quantities and construct simple equations and inequalities"
+    ],
+    "severity": "medium",
+    "suggestion": "Remember that when multiplying both sides of an inequality by a constant, the direction of the inequality sign remains the same.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the operation of multiplying both sides by 3, resulting in a misunderstanding of how to isolate x.\",\n    \"affected_concepts\": [\"Solving linear inequalities in one variable\", \"Using variables to represent quantities and construct simple equations and inequalities\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Remember that when multiplying both sides of an inequality by a constant, the direction of the inequality sign remains the same.\"\n}",
+    "dialogue_idx": 137,
+    "turn_idx": 6,
+    "teacher_text": "That's correct! When we divide both sides by \\(1/3\\), it's the same as multiplying by \\(3\\). How does the inequality appear now?",
+    "student_text": "1 < 9",
+    "kcs": [
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.",
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.",
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the multiplication operation, confusing the variable with a constant.",
+    "affected_concepts": [
+      "Understanding variables and expressions, Solving linear equations and inequalities in one variable"
+    ],
+    "severity": "medium",
+    "suggestion": "Remember that when multiplying a variable by a constant, the variable remains unchanged, and only the constant is multiplied.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the multiplication operation, confusing the variable with a constant.\",\n    \"affected_concepts\": [\"Understanding variables and expressions, Solving linear equations and inequalities in one variable\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Remember that when multiplying a variable by a constant, the variable remains unchanged, and only the constant is multiplied.\"\n}",
+    "dialogue_idx": 137,
+    "turn_idx": 7,
+    "teacher_text": "Hmm, not exactly. Remember, we're multiplying both sides by 3. So, \\(1/3x * 3\\) becomes what?",
+    "student_text": "3/3s",
+    "kcs": [
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.",
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.",
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the concept of multiplying a fraction by its reciprocal, resulting in a misunderstanding of the operation's effect.",
+    "affected_concepts": [
+      "understanding variables and expressions, solving linear equations and inequalities"
+    ],
+    "severity": "high",
+    "suggestion": "Review the concept of multiplying fractions by their reciprocals and practice applying it to different scenarios.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the concept of multiplying a fraction by its reciprocal, resulting in a misunderstanding of the operation's effect.\",\n    \"affected_concepts\": [\"understanding variables and expressions, solving linear equations and inequalities\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Review the concept of multiplying fractions by their reciprocals and practice applying it to different scenarios.\"\n}",
+    "dialogue_idx": 137,
+    "turn_idx": 8,
+    "teacher_text": "Hmm, not exactly. We're multiplying \\(1/3x\\) by 3, not 1 by 3. What does \\(1/3x * 3\\) simplify to?",
+    "student_text": "0?",
+    "kcs": [
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.",
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.",
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly applied the concept of multiplying by the reciprocal to isolate the variable, resulting in an incorrect simplification of the expression.",
+    "affected_concepts": [
+      "Understand solving an equation or inequality as a process of answering a question",
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem"
+    ],
+    "severity": "medium",
+    "suggestion": "Remember that when multiplying by the reciprocal, the variable will cancel out, leaving just the constant.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly applied the concept of multiplying by the reciprocal to isolate the variable, resulting in an incorrect simplification of the expression.\",\n    \"affected_concepts\": [\"Understand solving an equation or inequality as a process of answering a question\", \"Use variables to represent numbers and write expressions when solving a real-world or mathematical problem\"],\n    \"severity\": \"medium\",\n    \"suggestion\": \"Remember that when multiplying by the reciprocal, the variable will cancel out, leaving just the constant.\"\n}",
+    "dialogue_idx": 137,
+    "turn_idx": 9,
+    "teacher_text": "Hmm, not exactly. Let's think about it. If we have \\(1/3\\) of something and we multiply it by 3, we get the whole thing back, right? So, \\(1/3x * 3\\) should give us what?",
+    "student_text": "3x",
+    "kcs": [
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.",
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.",
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "calculation",
+    "explanation": "The student incorrectly calculated the sum of 27 and 13, resulting in an incorrect right side of the inequality.",
+    "affected_concepts": [
+      "Solving linear inequalities in one variable"
+    ],
+    "severity": "low",
+    "suggestion": "Double-check your calculations and make sure to add the numbers correctly.",
+    "raw_response": "{\n    \"error_type\": \"calculation\",\n    \"explanation\": \"The student incorrectly calculated the sum of 27 and 13, resulting in an incorrect right side of the inequality.\",\n    \"affected_concepts\": [\"Solving linear inequalities in one variable\"],\n    \"severity\": \"low\",\n    \"suggestion\": \"Double-check your calculations and make sure to add the numbers correctly.\"\n}",
+    "dialogue_idx": 137,
+    "turn_idx": 16,
+    "teacher_text": "That's correct! Now, simplify the right side of the inequality. What do you get?",
+    "student_text": "14!",
+    "kcs": [
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.",
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.",
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ]
+  },
+  {
+    "success": true,
+    "error_type": "conceptual",
+    "explanation": "The student incorrectly defines the radius as a measurement from the center to one of the edges, which is not a standard definition in geometry.",
+    "affected_concepts": [
+      "Distinguish between defining attributes and non-defining attributes",
+      "Recognize and draw shapes having specified attributes",
+      "Identify and describe relationships among inscribed angles, radii, and chords"
+    ],
+    "severity": "high",
+    "suggestion": "Recall that the radius of a circle is a line segment from the center to a point on the circle, not to an edge.",
+    "raw_response": "{\n    \"error_type\": \"conceptual\",\n    \"explanation\": \"The student incorrectly defines the radius as a measurement from the center to one of the edges, which is not a standard definition in geometry.\",\n    \"affected_concepts\": [\"Distinguish between defining attributes and non-defining attributes\", \"Recognize and draw shapes having specified attributes\", \"Identify and describe relationships among inscribed angles, radii, and chords\"],\n    \"severity\": \"high\",\n    \"suggestion\": \"Recall that the radius of a circle is a line segment from the center to a point on the circle, not to an edge.\"\n}",
+    "dialogue_idx": 114,
+    "turn_idx": 1,
+    "teacher_text": "Interesting, let's dissect this. How do you define the term \"radius\" when referring to a circle and a regular polygon?",
+    "student_text": "the radius is the measurement from the center of the shape to one of its edges",
+    "kcs": [
+      "Distinguish between defining attributes (e.g., triangles are closed and three-sided) versus non-defining attributes (e.g., color, orientation, overall size); build and draw shapes to possess defining attributes.",
+      "Recognize and draw shapes having specified attributes, such as a given number of angles or a given number of equal faces. (Sizes are compared directly or visually, not compared by measuring.) Identify triangles, quadrilaterals, pentagons, hexagons, and cubes.",
+      "Draw points, lines, line segments, rays, angles (right, acute, obtuse), and perpendicular and parallel lines. Identify these in two-dimensional figures.",
+      "Identify and describe relationships among inscribed angles, radii, and chords. Include the relationship between central, inscribed, and circumscribed angles; inscribed angles on a diameter are right angles; the radius of a circle is perpendicular to the tangent where the radius intersects the circle."
+    ]
+  }
+]

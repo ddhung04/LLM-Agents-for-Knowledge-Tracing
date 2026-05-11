@@ -1,0 +1,22 @@
+{
+  "n_annotated": 46,
+  "accuracy": 0.32608695652173914,
+  "f1_macro": 0.18328502415458936,
+  "f1_weighted": 0.27299936988027723,
+  "agreement_rate": 0.8913043478260869,
+  "partial_agreement_rate": 0.9347826086956522,
+  "human_distribution": {
+    "conceptual": 15,
+    "procedural": 13,
+    "calculation": 11,
+    "careless": 6,
+    "other": 1
+  },
+  "llm_distribution": {
+    "conceptual": 30,
+    "procedural": 10,
+    "calculation": 1,
+    "careless": 1,
+    "other": 4
+  }
+}

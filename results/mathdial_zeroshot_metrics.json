@@ -1,0 +1,24 @@
+{
+  "overall": {
+    "n": 414,
+    "auc": 0.5675691445909674,
+    "accuracy": 0.5048309178743962,
+    "f1_macro": 0.34397971724729653,
+    "f1_pos": 0.019138755980861243,
+    "precision": 0.5,
+    "recall": 0.00975609756097561,
+    "pos_ratio": 0.49516908212560384
+  },
+  "final_turn": {
+    "n": 99,
+    "auc": 0.49828375286041193,
+    "accuracy": 0.24242424242424243
+  },
+  "config": {
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "quantize": "4-bit NF4",
+    "approach": "zero-shot",
+    "n_dialogues_used": 100,
+    "elapsed_minutes": 26.47
+  }
+}

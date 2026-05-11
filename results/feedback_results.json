@@ -1,0 +1,702 @@
+[
+  {
+    "dialogue_idx": 28,
+    "turn_idx": 2,
+    "teacher": "Superb! Now, let's use that understanding. If angle A is \\(90 - x\\), what would be the complement of angle A? Keep in mind, the complement of an angle is \\(90\\) degrees minus the angle.",
+    "student": "90 - 90-x",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Use facts about supplementary, complementary, vertical, and adjacent angles in a multi-step problem to write and solve simple equations for an unknown angle in a figure."
+    ],
+    "mastery_vector": {
+      "Use facts about supplementary, complementary, vertical, and adjacent angles in a multi-step problem to write and solve simple equations for an unknown angle in a figure.": 0.0851
+    },
+    "avg_mastery": 0.0851,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly applied the definition of a complement, which is to subtract the angle from 90 degrees, instead of subtracting the angle from 90 degrees and then subtracting x from the result.",
+    "feedback_text": "You're close, but let's revisit the definition of a complement. Remember, the complement of an angle is 90 degrees minus the angle itself. So, if angle A is 90 - x, its complement would be 90 - (90 - x). Can you simplify that expression?",
+    "scaffolding_question": "What would happen if you first subtracted 90 - x from 90?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Focus on simplifying the expression 90 - (90 - x) step by step",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 74,
+    "turn_idx": 2,
+    "teacher": "Excellent! Now, let's find the value of \\(x\\). What's the initial step you would take to simplify this equation?",
+    "student": "1/2x=5/2x+32",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.",
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.",
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.",
+      "Solve multi-step real-life and mathematical problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals), using tools strategically. Apply properties of operations to calculate with numbers in any form; convert between forms as appropriate; and assess the reasonableness of answers using mental computation and estimation strategies. For example: If a woman making $25 an hour gets a 10% raise, she will make an additional 1/10 of her salary an hour, or $2.50, for a new salary of $27.50. If you want to place a towel bar 9 3/4 inches long in the center of a door that is 27 1/2 inches wide, you will need to place the bar about 9 inches from each edge; this estimate can be used as a check on the exact computation.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.6225,
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.3775,
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.": 0.7549,
+      "Solve multi-step real-life and mathematical problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals), using tools strategically. Apply properties of operations to calculate with numbers in any form; convert between forms as appropriate; and assess the reasonableness of answers using mental computation and estimation strategies. For example: If a woman making $25 an hour gets a 10% raise, she will make an additional 1/10 of her salary an hour, or $2.50, for a new salary of $27.50. If you want to place a towel bar 9 3/4 inches long in the center of a door that is 27 1/2 inches wide, you will need to place the bar about 9 inches from each edge; this estimate can be used as a check on the exact computation.": 0.2689,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.852
+    },
+    "avg_mastery": 0.5752,
+    "error_type": "procedural",
+    "error_explanation": "The student incorrectly applied the distributive property to the equation, resulting in an incorrect simplification.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're close, but let's correct the mistake. Remember, when simplifying the equation, you should first get rid of the fractions by multiplying both sides by 2. Then, you can proceed with the simplification.\",\n    \"scaffolding_question\": \"What would happen if you multiplied both sides of the equation by 2 to eliminate the fractions?\",\n    \"mastery_adaptation\": \"low\",\n    \"pedagogical_strategy\": \"scaffolding|encouragement\",\n    \"next_step_hint\": \"After multiplying by 2, you",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 110,
+    "turn_idx": 3,
+    "teacher": "Exactly right! You've nailed it! \\(\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)\\). This is the correct sum identity for sine. \n\nNow, let's try a problem. If \\(a = \\frac{\\pi}{6}\\) and \\(b = \\frac{\\pi}{4}\\), can you calculate the value of \\(\\sin(a + b)\\) using the identity you just provided?",
+    "student": "\\(\\sqrt{\\frac{3}{2}}+\\sqrt{\\frac{2}{2}}+\\frac{1}{2}+\\sqrt{\\frac{3}{2}}\\)",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.",
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays."
+    ],
+    "mastery_vector": {
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.9466,
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.0293
+    },
+    "avg_mastery": 0.4879,
+    "error_type": "procedural",
+    "error_explanation": "The student incorrectly applied the sum identity for sine by not following the correct order of operations and not simplifying the expression.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're close, but let's revisit the substitution process. Remember, we're replacing \\(a\\) with \\(\\frac{\\pi}{6}\\) and \\(b\\) with \\(\\frac{\\pi}{4}\\) in the equation \\(\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)\\). Then, we use the known values for sine and cosine of these angles. What do you get when you substitute and simplify?\",\n    \"scaffolding_question\": \"Can you walk me through the substitution process step by step?\",\n    \"mastery_adaptation\": \"high\",\n    \"pedagogical",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 110,
+    "turn_idx": 4,
+    "teacher": "Hmm, it seems there might be a slight error in your calculation. Let's go through it step by step. \n\nFirstly, we know that \\(\\sin(\\frac{\\pi}{6}) = \\frac{1}{2}\\), \\(\\cos(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}\\), \\(\\cos(\\frac{\\pi}{6}) = \\frac{\\sqrt{3}}{2}\\), and \\(\\sin(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}\\). \n\nNow, let's substitute these values into the sum identity for sine. What do you get?",
+    "student": "can you clarify what you mean? do I substitute those values back into the equation or do I add them together",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.",
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays."
+    ],
+    "mastery_vector": {
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.6792,
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.1067
+    },
+    "avg_mastery": 0.393,
+    "error_type": "procedural",
+    "error_explanation": "The student is unsure about the correct procedure to follow after substituting the given values into the sum identity for sine, indicating a misunderstanding of the procedural steps involved in applying the identity.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're doing great in understanding the sum identity for sine! However, it seems you got stuck when substituting the given values. Remember, after substituting, you should be adding the values together, not adding the numbers themselves. Let's try again!\",\n    \"scaffolding_question\": \"What do you get when you substitute the known values of \\(\\sin(\\frac{\\pi}{6})\\), \\(\\cos(\\frac{\\pi}{4})\\), \\(\\cos(\\frac{\\pi}{6})\\), and \\(\\sin(\\frac{\\pi}{4})\\) into the equation \\(\\sin(a + b)",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 110,
+    "turn_idx": 5,
+    "teacher": "Sure, let's simplify it. \n\nWe know that \\(\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)\\). \n\nSo, we substitute the values we know into this equation. That means wherever we see \\(a\\), we replace it with \\(\\frac{\\pi}{6}\\), and wherever we see \\(b\\), we replace it with \\(\\frac{\\pi}{4}\\). \n\nSo, \\(\\sin(a + b)\\) becomes \\(\\sin(\\frac{\\pi}{6})\\cos(\\frac{\\pi}{4}) + \\cos(\\frac{\\pi}{6})\\sin(\\frac{\\pi}{4})\\). \n\nNow, we know that \\(\\sin(\\frac{\\pi}{6}) = \\frac{1}{2}\\), \\(\\cos(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}\\), \\(\\cos(\\frac{\\pi}{6}) = \\frac{\\sqrt{3}}{2}\\), and \\(\\sin(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}\\). \n\nSo, we replace these values in our equation. \n\nWhat do you get when you do that?",
+    "student": "(1+2  \\(\\left(\\sqrt{2}+\\sqrt{3}\\right)\\)",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.",
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays."
+    ],
+    "mastery_vector": {
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.2018,
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.0331
+    },
+    "avg_mastery": 0.1174,
+    "error_type": "procedural",
+    "error_explanation": "The student incorrectly combined the values in the equation, failing to properly distribute the terms and resulting in an incorrect expression.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're doing a great job of understanding the sum identity for sine! However, it seems like you got stuck when substituting the values into the equation. Remember to carefully distribute the terms and make sure to combine like terms correctly.\",\n    \"scaffolding_question\": \"Can you walk me through how you would substitute the values of \\(\\sin(\\frac{\\pi}{6})\\), \\(\\cos(\\frac{\\pi}{4})\\), \\(\\cos(\\frac{\\pi}{6})\\), and \\(\\sin(\\frac{\\pi}{4})\\) into the equation \\(\\sin(a + b) = \\",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 79,
+    "turn_idx": 2,
+    "teacher": "Excellent! Now, suppose we have an identity to validate, such as \\(\\tan^2(x) + 1 = \\sec^2(x)\\). What would be your first step?",
+    "student": "make the left side equal to sec^2",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle."
+    ],
+    "mastery_vector": {
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle.": 0.4378
+    },
+    "avg_mastery": 0.4378,
+    "error_type": "conceptual",
+    "error_explanation": "The student failed to recognize that the task is to validate the given identity, not to simply equate the left and right sides.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're close! To validate the identity, we need to ensure that both sides are equivalent. Let's focus on rewriting the left side using the Pythagorean identity. Remember, we can use the identity to relate \\(\\tan^2(x)\\) to \\(\\sin^2(x)\\) and \\(\\cos^2(x)\\). You've already made a good start by expressing \\(\\tan^2(x)\\) as \\(\\frac{\\sin^2(x)}{\\cos^2(x)}\\). Now, think about how we can use the Pythagorean identity to simplify this expression.\",\n    \"scaffolding_question\": \"How can",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 135,
+    "turn_idx": 2,
+    "teacher": "Excellent! Now, let's apply that conversion ratio. Can you figure out the number of degrees in 4 radians?",
+    "student": "4 times 180/pi",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Know relative sizes of measurement units within one system of units including km, m, cm; kg, g; lb, oz.; l, ml; hr, min, sec. Within a single system of measurement, express measurements in a larger unit in terms of a smaller unit. Record measurement equivalents in a two column table. For example, know that 1 ft is 12 times as long as 1 in. Express the length of a 4 ft snake as 48 in. Generate a conversion table for feet and inches listing the number pairs (1, 12), (2, 24), (3, 36), ...",
+      "Convert among different-sized standard measurement units within a given measurement system (e.g., convert 5 cm to 0.05 m), and use these conversions in solving multi-step, real world problems.",
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays."
+    ],
+    "mastery_vector": {
+      "Know relative sizes of measurement units within one system of units including km, m, cm; kg, g; lb, oz.; l, ml; hr, min, sec. Within a single system of measurement, express measurements in a larger unit in terms of a smaller unit. Record measurement equivalents in a two column table. For example, know that 1 ft is 12 times as long as 1 in. Express the length of a 4 ft snake as 48 in. Generate a conversion table for feet and inches listing the number pairs (1, 12), (2, 24), (3, 36), ...": 0.2451,
+      "Convert among different-sized standard measurement units within a given measurement system (e.g., convert 5 cm to 0.05 m), and use these conversions in solving multi-step, real world problems.": 0.1824,
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.2689
+    },
+    "avg_mastery": 0.2321,
+    "error_type": "procedural",
+    "error_explanation": "The student correctly identified the conversion ratio but failed to apply it by not performing the multiplication.",
+    "feedback_text": "You're close! You correctly identified the conversion ratio, but remember to multiply 4 radians by 180/pi to get the number of degrees. Let's focus on the multiplication step.",
+    "scaffolding_question": "What would happen if you multiplied 4 by 180, but forgot to divide by pi?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Try multiplying 4 by 180, and then divide the result by pi to get the number of degrees.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 149,
+    "turn_idx": 1,
+    "teacher": "Okay, let's work through this trigonometric equation step by step! \n\nFirstly, can you recall the Pythagorean identity for cosine and sine?",
+    "student": "yes sin^2x+cos^2x",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle."
+    ],
+    "mastery_vector": {
+      "Prove the Pythagorean identity sin^(2)(θ) + cos^(2)(θ) = 1 and use it to find sin(θ), cos(θ),or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle.": 0.0036
+    },
+    "avg_mastery": 0.0036,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly stated the Pythagorean identity as sin^2x+cos^2x instead of 1, which is a fundamental concept in trigonometry.",
+    "feedback_text": "That's a great start on recalling the Pythagorean identity! However, I noticed you forgot to include the crucial part that makes it equal to 1. Can you think about what's missing?",
+    "scaffolding_question": "What do you think is the correct statement of the Pythagorean identity?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Let's focus on correctly stating the Pythagorean identity before we proceed with the equation",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 15,
+    "turn_idx": 2,
+    "teacher": "Alright, let's delve into the x-factor technique! It's an interesting method to factor quadratic equations like \\(2x^2 - x - 6\\). \n\nStep 1: We start by multiplying the coefficient of \\(x^2\\) (which is 2 here) with the constant term (which is -6 here). Can you tell me what you get when you multiply these two numbers?",
+    "student": "can you demonstrate the x-factor technique (not explain)?",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression."
+    ],
+    "mastery_vector": {
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.": 0.0759
+    },
+    "avg_mastery": 0.0759,
+    "error_type": "procedural",
+    "error_explanation": "The student is asking the teacher to demonstrate the x-factor technique, but they should be asking for the actual mathematical process or steps involved in the technique.",
+    "feedback_text": "You're doing a great job of trying to understand the x-factor technique! I appreciate your persistence. Let's break down the steps involved in factoring 2x^2 - x - 6. You were close when you filled in the numbers -12 and 1, but now we need to find two numbers that multiply to -12 and add to -1. Can you think of two numbers that do this?",
+    "scaffolding_question": "What are the two numbers that multiply to -12 and add to -1?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Focus on finding the correct two numbers that satisfy the conditions.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 15,
+    "turn_idx": 3,
+    "teacher": "Sure, let's do it together! \n\nFirst, we multiply the coefficient of \\(x^2\\) (which is 2) with the constant term (which is -6). \n\nCan you do this multiplication for me?",
+    "student": "I want you to demonstrate",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.",
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+    ],
+    "mastery_vector": {
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.": 0.3208,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.2689
+    },
+    "avg_mastery": 0.2948,
+    "error_type": "careless",
+    "error_explanation": "The student's request to demonstrate is not an error in the mathematical process, but rather a request for a different presentation style.",
+    "feedback_text": "You're doing a great job of trying to understand the X-factor technique! I appreciate your persistence. Let's break it down step by step. You correctly identified the numbers -12 and 1 as the top and bottom of the X. Now, we need to find two numbers that multiply to -12 and add to -1. Can you think of two numbers that do this?",
+    "scaffolding_question": "What are two numbers that multiply to -12?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Remember, we're looking for two numbers that multiply to -12 and add to -1. Think about how you can use the numbers you've already found to help you solve this problem.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 15,
+    "turn_idx": 4,
+    "teacher": "Alright! Let's do this together, step by step. \n\nFirst, we multiply the coefficient of \\(x^2\\) (which is 2) with the constant term (which is -6). \n\nWhat do you get when you multiply 2 and -6?",
+    "student": "Please demonstrate the x-factor technique.  You are only explaining it, which is not helpful.  I want you to show me visually, please",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.",
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+    ],
+    "mastery_vector": {
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.": 0.2942,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.1824
+    },
+    "avg_mastery": 0.2383,
+    "error_type": "procedural",
+    "error_explanation": "The student is asking for a demonstration of the x-factor technique, but the teacher has already explained the process and is now ready to visually demonstrate it. The student's request is not about the concept, but about the procedural step of seeing the process in action.",
+    "feedback_text": "You're doing great! I see you're eager to see the X-factor technique in action. Let's try to fill in the numbers correctly this time. Remember, we need two numbers that multiply to -12 and add to -1.",
+    "scaffolding_question": "Can you think of two numbers that multiply to -12 and add to -1?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Let's focus on finding those two numbers that fit the X-factor technique.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 15,
+    "turn_idx": 5,
+    "teacher": "I understand, you'd like to see the process visually. Let's sketch it out together!\n\nFirst, we have our quadratic equation: \\(2x^2 - x - 6\\).\n\nWe'll start by multiplying the coefficient of \\(x^2\\) (which is 2) with the constant term (which is -6). \n\nCan you draw two groups of -6 on your paper and tell me what you get?",
+    "student": "You are not demonstrating - that is not helpful and not what I asked for.  Please draw the X and show me how to do this.",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.",
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+    ],
+    "mastery_vector": {
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.": 0.2689,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.1067
+    },
+    "avg_mastery": 0.1878,
+    "error_type": "careless",
+    "error_explanation": "The student is frustrated with the teacher's explanation method, but the actual issue is that the student is not paying attention to the teacher's visual demonstration and is instead focusing on the teacher's words.",
+    "feedback_text": "I can see that you're getting frustrated with the explanation method, but let's take a closer look at what we're trying to achieve. You're doing a great job of filling in the numbers, but we need to make sure we're paying attention to the visual demonstration. Remember, the X-factor technique is all about finding two numbers that multiply to -12 and add to -1.",
+    "scaffolding_question": "Can you think of two numbers that multiply to -12 and add to -1?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding|encouragement",
+    "next_step_hint": "Let's focus on finding those two numbers that fit the X-factor technique. Take your time, and remember to pay attention to the visual demonstration.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 15,
+    "turn_idx": 6,
+    "teacher": "I see you're eager to see the X-factor technique in action! Let's draw an X together. \n\nThe top of the X will be the product of the coefficient of \\(x^2\\) and the constant term. The bottom of the X will be the coefficient of \\(x\\). \n\nCan you fill in the top and bottom of the X with the correct numbers?",
+    "student": "why are you refusing to demonstrate?",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression."
+    ],
+    "mastery_vector": {
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.": 0.1192
+    },
+    "avg_mastery": 0.1192,
+    "error_type": "procedural",
+    "error_explanation": "The student is frustrated because the teacher is not providing a visual demonstration of the X-factor technique, but the teacher is actually trying to guide the student through the process.",
+    "feedback_text": "I can see that you're getting frustrated, but I'm here to help you understand the X-factor technique. You're doing a great job of trying to fill in the numbers, but let's take a step back and make sure we understand each part of the process. Remember, factoring is like solving a puzzle, and we need to find the right pieces to fit together.",
+    "scaffolding_question": "Can you tell me what you think the product of 2 and -6 is?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding|encouragement",
+    "next_step_hint": "Let's focus on finding two numbers that multiply to -12 and add to -1. Can you think of any pairs of numbers that do this?",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 15,
+    "turn_idx": 7,
+    "teacher": "I apologize if it seemed like I was refusing. I'm here to guide you through the process. Let's try this again.\n\nWe're factoring \\(2x^2 - x - 6\\) using the X-method. \n\n1. Draw an X. \n2. At the top of the X, write the product of the coefficient of \\(x^2\\) (2) and the constant term (-6). What do you get? \n3. At the bottom of the X, write the coefficient of \\(x\\) (-1).\n\nCan you fill in these numbers?",
+    "student": "-12 and 1",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression."
+    ],
+    "mastery_vector": {
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.": 0.133
+    },
+    "avg_mastery": 0.133,
+    "error_type": "procedural",
+    "error_explanation": "The student incorrectly filled in the numbers at the top and bottom of the X, not following the correct order of operations or the specific instructions given by the teacher.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're doing a great job of trying to understand the X-factor technique! I appreciate your persistence. However, let's revisit the steps we went through together. You correctly identified the product of the coefficient of \\(x^2\\) and the constant term as -12. Now, we need to find two numbers that multiply to -12 and add to -1. Remember, we're looking for two numbers that multiply to -12 and add to -1. Can you think of two numbers that fit this description?\",\n    \"scaffold",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 2,
+    "teacher": "No problem! You're referring to \"parentheses\", those round brackets. You're correct, we should handle them first. We can do this by distributing the 5 to each term inside the parentheses. Can you try that?",
+    "student": "5-2?",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.1067
+    },
+    "avg_mastery": 0.1067,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly applied the distributive property by only considering the constant term (-2) instead of both the variable term (x) and the constant term.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're doing a great job of trying to solve the equation! I love how you're thinking about distributing the 5 to each term inside the parentheses. Remember, when we distribute, we multiply the number outside the parentheses by each term inside. So, in this case, we multiply 5 by both \\(x\\) and -2. Let's try that again!\",\n    \"scaffolding_question\": \"What do you think happens when we multiply 5 by \\(x\\) and 5 by -2?\",\n    \"mastery_adaptation\": \"low\",\n    \"pedagogical_strat",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 3,
+    "teacher": "Almost there! When we distribute, we multiply each term inside the parentheses by the number outside. So, we multiply 5 by \\(x\\) and 5 by -2. What does that give us?",
+    "student": "Ah! 5x-2?",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.4073
+    },
+    "avg_mastery": 0.4073,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly applied the distributive property by multiplying 5 by -2 as if it were a subtraction operation, rather than a multiplication operation.",
+    "feedback_text": "You're close to solving the equation, but let's revisit the distributive property. Remember, when we multiply 5 by -2, we're not subtracting 2 from 5, but rather multiplying the two numbers. This gives us -10, not 10.",
+    "scaffolding_question": "Can you think of a real-life example where you might need to multiply a negative number?",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding|socratic",
+    "next_step_hint": "Let's try to rewrite the equation with the correct multiplication. What does the equation look like after distributing 5 to x and -2?",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 4,
+    "teacher": "Close, but remember we're multiplying 5 by -2, not subtracting 2 from 5. So, it should be 5x minus what?",
+    "student": "Oh I think your confused? I tried to put in \"5 (  \\(x\\) -2)=35! Sorry!!",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.5622
+    },
+    "avg_mastery": 0.5622,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly applied the concept of distributing a number to terms inside parentheses, confusing it with simply writing the original equation.",
+    "feedback_text": "You're doing a great job of trying to solve the equation, and I appreciate your persistence! However, it seems like you got stuck on distributing the number 5 to the terms inside the parentheses. Let's break it down step by step to make sure you understand the concept.",
+    "scaffolding_question": "When we distribute a number to terms inside parentheses, what does that mean we're doing to each term?",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Let's try to distribute the number 5 to the terms inside the parentheses again, and see if we can get the correct equation.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 5,
+    "teacher": "No problem at all! We're here to learn together. When we distribute, we multiply the number outside the parentheses (in this case, 5) by each term inside the parentheses. So, we multiply 5 by \\(x\\) and 5 by -2. Can you try that again?",
+    "student": "Ah! Okay.",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.2227
+    },
+    "avg_mastery": 0.2227,
+    "error_type": "procedural",
+    "error_explanation": "The student failed to apply the distributive property correctly, which led to a lack of progress in solving the equation.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're doing a great job of trying to solve the equation! I love how you're thinking about distributing the 5 to each term inside the parentheses. Remember, when we distribute, we multiply the number outside the parentheses by each term inside. So, in this case, we multiply 5 by \\(x\\) and 5 by -2. Let's try that again!\",\n    \"scaffolding_question\": \"What would happen if we multiplied 5 by \\(x\\) and 5 by -2?\",\n    \"mastery_adaptation\": \"low\",\n    \"pedagogical_strategy\": \"s",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 6,
+    "teacher": "That's the spirit! So, if we multiply 5 by \\(x\\) and 5 by -2, what do we get?",
+    "student": "I am not sure what you mean? Can you please say it in other words, please?",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.3486
+    },
+    "avg_mastery": 0.3486,
+    "error_type": "conceptual",
+    "error_explanation": "The student is struggling to understand the concept of distributing a number to each term inside the parentheses, which is a fundamental property of operations.",
+    "feedback_text": "You're doing a great job of trying to solve the equation, and I can see that you're getting closer. Remember, when we distribute a number to each term inside the parentheses, we're multiplying that number by each term. Let's try to break it down step by step.",
+    "scaffolding_question": "Can you think of a simple multiplication problem that's similar to what we're doing with the equation?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Let's focus on multiplying 5 by each term inside the parentheses, and then we can try to simplify the equation.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 7,
+    "teacher": "Absolutely! Let's break it down. \n\nWhen we say \"distribute\", we mean to multiply the number outside the parentheses by each number inside the parentheses. \n\nSo, for our equation, we have 5 outside the parentheses and \\(x\\) and -2 inside. \n\nWe do two multiplications: \n\n1. 5 times \\(x\\) \n2. 5 times -2 \n\nCan you try these multiplications?",
+    "student": "Well 5 x 2 would be 10.",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.1824
+    },
+    "avg_mastery": 0.1824,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly assumed that the multiplication inside the parentheses was 5 times 2, instead of 5 times -2.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're doing a great job of trying to solve the equation! I love how you're thinking about distributing the 5 to each term inside the parentheses. Remember, when we distribute, we multiply the number outside the parentheses by each term inside. So, in this case, we multiply 5 by \\(x\\) and 5 by -2. Let's try that again!\",\n    \"scaffolding_question\": \"What do you think happens when we multiply 5 by -2?\",\n    \"mastery_adaptation\": \"low\",\n    \"pedagogical_strategy\": \"scaffold",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 8,
+    "teacher": "That's correct! But remember, we're multiplying 5 by -2, not 2. So, it should be -10, not 10. Now, can you try to write the whole equation after distributing 5 to \\(x\\) and -2?",
+    "student": "Im sorry! The problem was \"5 (  \\(x\\) - 2) = 35",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.148
+    },
+    "avg_mastery": 0.148,
+    "error_type": "conceptual",
+    "error_explanation": "The student failed to apply the distributive property correctly, misunderstanding the operation of distributing 5 to each term inside the parentheses.",
+    "feedback_text": "{\n    \"feedback_text\": \"You're doing a great job of trying to solve the equation, and I can see that you're getting closer! Remember, when we distribute 5 to each term inside the parentheses, we're multiplying 5 by \\(x\\) and 5 by -2. Let's try that again together.\",\n    \"scaffolding_question\": \"What do you think happens when we multiply 5 by \\(x\\) and 5 by -2?\",\n    \"mastery_adaptation\": \"low\",\n    \"pedagogical_strategy\": \"scaffolding\",\n    \"next_step_hint\": \"Let's focus on writing the correct e",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 9,
+    "teacher": "That's okay! We're here to learn. \n\nWhen we distribute, we multiply the number outside the parentheses (5 in this case) by each term inside the parentheses (\\(x\\) and -2). \n\nSo, we do two multiplications: \n\n1. 5 times \\(x\\) \n2. 5 times -2 \n\nCan you try these multiplications?",
+    "student": "not -2",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y."
+    ],
+    "mastery_vector": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.0474
+    },
+    "avg_mastery": 0.0474,
+    "error_type": "other",
+    "error_explanation": "Failed to parse LLM response",
+    "feedback_text": "{\n    \"feedback_text\": \"You're doing a great job of trying to solve the equation! Remember to focus on distributing the number outside the parentheses to each term inside. Let's try to simplify the equation step by step.\",\n    \"scaffolding_question\": \"What do you think happens when we multiply 5 by \\(x\\) and 5 by -2?\",\n    \"mastery_adaptation\": \"low\",\n    \"pedagogical_strategy\": \"scaffolding\",\n    \"next_step_hint\": \"Let's try to add 10 to both sides of the equation to isolate \\(x\\).\"\n}",
+    "scaffolding_question": "",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 13,
+    "teacher": "That's correct! Adding 10 to both sides of the equation will help us isolate \\(x\\). Can you do that and tell me what you get?",
+    "student": "Never mind",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.",
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters."
+    ],
+    "mastery_vector": {
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.": 0.3486,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.5312
+    },
+    "avg_mastery": 0.4399,
+    "error_type": "procedural",
+    "error_explanation": "The student knows the concept of adding 10 to both sides of the equation but fails to apply the correct steps to isolate x.",
+    "feedback_text": "You're doing a great job of trying to solve the equation! Remember to distribute the 5 to each term inside the parentheses first. Then, you can add 10 to both sides of the equation to isolate x. Let's try that together!",
+    "scaffolding_question": "What do you think happens when we distribute the 5 to each term inside the parentheses?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding",
+    "next_step_hint": "Focus on distributing the 5 to each term inside the parentheses, and then we can work on adding 10 to both sides of the equation.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 152,
+    "turn_idx": 15,
+    "teacher": "Ah, a new question! You're asking about the fraction \\(\\frac{17}{4}\\). This is a division problem. Can you try dividing 17 by 4 and tell me what you get?",
+    "student": "4",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b."
+    ],
+    "mastery_vector": {
+      "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b.": 0.1192
+    },
+    "avg_mastery": 0.1192,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly interpreted the fraction 17/4 as a division problem, rather than understanding it as a quantity formed by 17 parts of size 1/4.",
+    "feedback_text": "You're doing a great job of trying to solve the equation, and I love how you're thinking about the distribution step! However, it seems like you got stuck when we started talking about fractions. Remember, a fraction like 17/4 represents a quantity formed by 17 parts of size 1/4. Let's take a closer look at that.",
+    "scaffolding_question": "Can you think of a real-life example where you might see 17/4 being used?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding|encouragement",
+    "next_step_hint": "Let's focus on understanding fractions as quantities formed by equal parts. We can start by thinking about what 1/4 represents in terms of size.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 27,
+    "turn_idx": 2,
+    "teacher": "Excellent beginning! You've calculated the total length of line segment XZ. Now, how can we use this information to determine the coordinates of point Y? Keep in mind, XY is 3 times as long as YZ.",
+    "student": "I would divide 12.8 by 3 total parts.",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Recognize and represent proportional relationships between quantities.",
+      "Find the point on a directed line segment between two given points that partitions the segment in a given ratio."
+    ],
+    "mastery_vector": {
+      "Recognize and represent proportional relationships between quantities.": 0.5622,
+      "Find the point on a directed line segment between two given points that partitions the segment in a given ratio.": 0.7773
+    },
+    "avg_mastery": 0.6698,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly applied the concept of proportional relationships by dividing the total length by the number of parts, instead of using the ratio to find the lengths of the segments.",
+    "feedback_text": "You're close! When dealing with proportional relationships, remember that the ratio of the lengths of the segments should be the same as the ratio of the corresponding parts. In this case, you should use the ratio of XY to YZ to find the lengths of the segments, not just divide the total length by the number of parts.",
+    "scaffolding_question": "How can you use the ratio of XY to YZ to find the lengths of the segments XZ?",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding|socratic",
+    "next_step_hint": "Focus on using the ratio to set up an equation and solve for the lengths of the segments",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 54,
+    "turn_idx": 2,
+    "teacher": "Absolutely correct! You're a whiz at multiplication! Now, let's attempt a slightly larger one. Can you solve \\(7 \\times 8\\)?",
+    "student": "46",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.",
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.",
+      "Fluently multiply and divide within 100, using strategies such as the relationship between multiplication and division (e.g., knowing that 8 × 5 = 40, one knows 40 ÷ 5 = 8) or properties of operations. By the end of Grade 3, know from memory all products of two one-digit numbers."
+    ],
+    "mastery_vector": {
+      "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 × 7.": 0.2018,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.0534,
+      "Fluently multiply and divide within 100, using strategies such as the relationship between multiplication and division (e.g., knowing that 8 × 5 = 40, one knows 40 ÷ 5 = 8) or properties of operations. By the end of Grade 3, know from memory all products of two one-digit numbers.": 0.7773
+    },
+    "avg_mastery": 0.3442,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly applied the multiplication concept, as 7 × 8 does not equal 46.",
+    "feedback_text": "You're close, but let's revisit the concept of multiplication. Remember, when we multiply numbers, we're essentially adding a number a certain number of times. For example, 7 × 8 means we're adding 8 together 7 times. Can you think about how you could represent 7 × 8 as repeated addition?",
+    "scaffolding_question": "How would you add 8 together 7 times?",
+    "mastery_adaptation": "high",
+    "pedagogical_strategy": "scaffolding|socratic",
+    "next_step_hint": "Focus on visualizing the multiplication as repeated addition, and then try to calculate the total sum.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 65,
+    "turn_idx": 1,
+    "teacher": "We're working with inverse trigonometry here! Let's break it down. Can you remember an angle that has a sine value of -1/2?",
+    "student": "7pi/6",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Explain how the unit circle in the coordinate plane enables the extension of trigonometric functions to all real numbers, interpreted as radian measures of angles traversed counterclockwise around the unit circle.",
+      "Use special triangles to determine geometrically the values of sine, cosine, tangent for π/3, π/4 and π/6, and use the unit circle to express the values of sine, cosines, and tangent for π–x, π+x, and 2π–x in terms of their values for x, where x is any real number."
+    ],
+    "mastery_vector": {
+      "Explain how the unit circle in the coordinate plane enables the extension of trigonometric functions to all real numbers, interpreted as radian measures of angles traversed counterclockwise around the unit circle.": 0.0019,
+      "Use special triangles to determine geometrically the values of sine, cosine, tangent for π/3, π/4 and π/6, and use the unit circle to express the values of sine, cosines, and tangent for π–x, π+x, and 2π–x in terms of their values for x, where x is any real number.": 0.1067
+    },
+    "avg_mastery": 0.0543,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly identified the angle with a sine value of -1/2, which is actually in the third quadrant, where sine is negative. However, the student chose an angle in the second quadrant.",
+    "feedback_text": "You're close, but let's revisit the unit circle. Remember, angles in the third quadrant have negative sine values. Can you think of an angle in the third quadrant with a sine value of -1/2?",
+    "scaffolding_question": "What's the relationship between the sine value and the quadrant?",
+    "mastery_adaptation": "low",
+    "pedagogical_strategy": "scaffolding|encouragement",
+    "next_step_hint": "Let's review the special triangles in the third quadrant to help you find the correct angle.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 49,
+    "turn_idx": 1,
+    "teacher": "Absolutely! Let's dissect it. What does each digit in 0.9998 stand for?",
+    "student": "Reading from left to right, they represent ten thousandths, thousandths, hundredths, and tenths.",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Recognize that in a multi-digit number, a digit in one place represents 10 times as much as it represents in the place to its right and 1/10 of what it represents in the place to its left.",
+      "Read, write, and compare decimals to thousandths."
+    ],
+    "mastery_vector": {
+      "Recognize that in a multi-digit number, a digit in one place represents 10 times as much as it represents in the place to its right and 1/10 of what it represents in the place to its left.": 0.2018,
+      "Read, write, and compare decimals to thousandths.": 0.7058
+    },
+    "avg_mastery": 0.4538,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly identified the place value of each digit in the decimal number 0.9998, misunderstanding how the position of a digit affects its value.",
+    "feedback_text": "You're close! I like how you broke down the number 0.9998 into its parts. However, let's revisit the place value of each digit. Remember, the first digit after the decimal point represents tenths, which is 1/10 of a whole. Then, each subsequent digit represents 1/10 of the previous place value. For example, the digit 9 in 0.9998 represents 9 hundredths.",
+    "scaffolding_question": "Can you think of a decimal number where the first digit after the decimal point represents hundredths?",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding|socratic",
+    "next_step_hint": "Focus on understanding how the position of each digit affects its value in a decimal number.",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 26,
+    "turn_idx": 2,
+    "teacher": "Good job pinpointing the important details! Now, let's consider how we can use this information to solve the problem. We know that the tangent of an angle in a right triangle is the ratio of the opposite side to the adjacent side. How can we use this fact to find the distance from the beacon to the kayak at the two different times?",
+    "student": "we can calculate the distance from the kayak to the beacon for both times, and subtract the second time from the first. how do we calculate the average velocity at which the kayak moved toward the beacon?",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.",
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems."
+    ],
+    "mastery_vector": {
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.": 0.6225,
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems.": 0.8933
+    },
+    "avg_mastery": 0.7579,
+    "error_type": "conceptual",
+    "error_explanation": "The student is on the right track but misunderstands how to apply the concept of trigonometric ratios to solve the problem. They are confusing the process of finding the distance with the process of finding the average velocity.",
+    "feedback_text": "You're close, but remember that we're not just calculating the distances, but also using them to find the average velocity. Think about how the distances relate to the time it took for the kayak to move towards the beacon.",
+    "scaffolding_question": "How can you use the two distances you calculated to find the average velocity of the kayak?",
+    "mastery_adaptation": "medium",
+    "pedagogical_strategy": "scaffolding|socratic",
+    "next_step_hint": "Focus on setting up the equation for average velocity using the two distances and the time difference",
+    "feedback_success": true
+  },
+  {
+    "dialogue_idx": 26,
+    "turn_idx": 3,
+    "teacher": "Fantastic! Now, let's use the tangent of the angles to calculate the distances. Remember, the tangent of an angle is the opposite side divided by the adjacent side. In this case, the opposite side is the height difference between the beacon and the kayak, and the adjacent side is the distance from the beacon to the kayak. Can you set up the equations for the two distances using the tangent of the angles?",
+    "student": "tan84=x/112 (set the first distance from the kayak to the beacon as x) and tan35=y/112 (set the second distance as y)",
+    "ground_truth_correct": false,
+    "kcs": [
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.",
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems."
+    ],
+    "mastery_vector": {
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.": 0.5312,
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems.": 0.9149
+    },
+    "avg_mastery": 0.723,
+    "error_type": "conceptual",
+    "error_explanation": "The student incorrectly applied the tangent function to the given angles, using the angles themselves instead of their complements to find the correct ratios.",
+    "feedback_text": "You're close! Remember that the tangent function is related to the ratio of the opposite side to the adjacent side, but you need to use the complementary angles to find the correct ratios. Think about why the angles you used might not be the right ones.",
+    "scaffolding_question": "What would happen if you used the complementary angles (90 - 84 = 6 and 90 - 35 = 55) instead of the given angles to find the ratios?",
+    "mastery_adaptation": "high",
+    "pedagogical_strategy": "socratic",
+    "next_step_hint": "Recall the definitions of sine, cosine, and tangent in terms of the sides of a right triangle, and see if you can use those to find the correct ratios.",
+    "feedback_success": true
+  }
+]

@@ -1,0 +1,1107 @@
+[
+  {
+    "dialogue_idx": 28,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.08509904891252518,
+    "kc_probs": {
+      "Use facts about supplementary, complementary, vertical, and adjacent angles in a multi-step problem to write and solve simple equations for an unknown angle in a figure.": 0.08509904891252518
+    }
+  },
+  {
+    "dialogue_idx": 74,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.41464898486932117,
+    "kc_probs": {
+      "Understand that attributes belonging to a category of two-dimensional figures also belong to all subcategories of that category. For example, all rectangles have four right angles and squares are rectangles, so all squares have four right angles.": 0.18242551386356354,
+      "Classify two-dimensional figures in a hierarchy based on properties.": 0.13296423852443695,
+      "Write, read, and evaluate expressions in which letters stand for numbers.": 0.3775406777858734,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.7057850360870361,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.6513549089431763,
+      "Create equations and inequalities in one variable and use them to solve problems. Include equations arising from linear and quadratic functions, and simple rational and exponential functions.": 0.4378235340118408
+    }
+  },
+  {
+    "dialogue_idx": 74,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.5751618385314942,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.622459352016449,
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.3775406777858734,
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.": 0.7549149990081787,
+      "Solve multi-step real-life and mathematical problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals), using tools strategically. Apply properties of operations to calculate with numbers in any form; convert between forms as appropriate; and assess the reasonableness of answers using mental computation and estimation strategies. For example: If a woman making $25 an hour gets a 10% raise, she will make an additional 1/10 of her salary an hour, or $2.50, for a new salary of $27.50. If you want to place a towel bar 9 3/4 inches long in the center of a door that is 27 1/2 inches wide, you will need to place the bar about 9 inches from each edge; this estimate can be used as a check on the exact computation.": 0.2689414322376251,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.8519527316093445
+    }
+  },
+  {
+    "dialogue_idx": 108,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.1202556099742651,
+    "kc_probs": {
+      "Explain how the unit circle in the coordinate plane enables the extension of trigonometric functions to all real numbers, interpreted as radian measures of angles traversed counterclockwise around the unit circle.": 0.020332353189587593,
+      "Use special triangles to determine geometrically the values of sine, cosine, tangent for \u03c0/3, \u03c0/4 and \u03c0/6, and use the unit circle to express the values of sine, cosines, and tangent for \u03c0\u2013x, \u03c0+x, and 2\u03c0\u2013x in terms of their values for x, where x is any real number.": 0.24508501589298248,
+      "Use the unit circle to explain symmetry (odd and even) and periodicity of trigonometric functions.": 0.09534946084022522
+    }
+  },
+  {
+    "dialogue_idx": 110,
+    "turn": 2,
+    "label": 1,
+    "pred_prob": 0.3486451804637909,
+    "kc_probs": {
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.3486451804637909
+    }
+  },
+  {
+    "dialogue_idx": 110,
+    "turn": 3,
+    "label": 0,
+    "pred_prob": 0.487954456359148,
+    "kc_probs": {
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.9465966820716858,
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.02931223064661026
+    }
+  },
+  {
+    "dialogue_idx": 110,
+    "turn": 4,
+    "label": 0,
+    "pred_prob": 0.3929346576333046,
+    "kc_probs": {
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.6791787147521973,
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.10669060051441193
+    }
+  },
+  {
+    "dialogue_idx": 110,
+    "turn": 5,
+    "label": 0,
+    "pred_prob": 0.11744960024952888,
+    "kc_probs": {
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.2018132209777832,
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.03308597952127457
+    }
+  },
+  {
+    "dialogue_idx": 79,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.13296423852443695,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.13296423852443695
+    }
+  },
+  {
+    "dialogue_idx": 79,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.4378235340118408,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.4378235340118408
+    }
+  },
+  {
+    "dialogue_idx": 79,
+    "turn": 3,
+    "label": 1,
+    "pred_prob": 0.3775406777858734,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.3775406777858734
+    }
+  },
+  {
+    "dialogue_idx": 4,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.8349079787731171,
+    "kc_probs": {
+      "Fluently add and subtract within 1000 using strategies and algorithms based on place value, properties of operations, and/or the relationship between addition and subtraction.": 0.9149009585380554,
+      "Fluently add and subtract multi-digit whole numbers using the standard algorithm.": 0.7549149990081787
+    }
+  },
+  {
+    "dialogue_idx": 4,
+    "turn": 2,
+    "label": 1,
+    "pred_prob": 0.8858431279659271,
+    "kc_probs": {
+      "Fluently add and subtract within 1000 using strategies and algorithms based on place value, properties of operations, and/or the relationship between addition and subtraction.": 0.9046505093574524,
+      "Fluently add and subtract multi-digit whole numbers using the standard algorithm.": 0.8670357465744019
+    }
+  },
+  {
+    "dialogue_idx": 4,
+    "turn": 3,
+    "label": 1,
+    "pred_prob": 0.8992747068405151,
+    "kc_probs": {
+      "Fluently add and subtract within 1000 using strategies and algorithms based on place value, properties of operations, and/or the relationship between addition and subtraction.": 0.9465966820716858,
+      "Fluently add and subtract multi-digit whole numbers using the standard algorithm.": 0.8519527316093445
+    }
+  },
+  {
+    "dialogue_idx": 135,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.3208213150501251,
+    "kc_probs": {
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.3208213150501251
+    }
+  },
+  {
+    "dialogue_idx": 135,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.23215065399805704,
+    "kc_probs": {
+      "Know relative sizes of measurement units within one system of units including km, m, cm; kg, g; lb, oz.; l, ml; hr, min, sec. Within a single system of measurement, express measurements in a larger unit in terms of a smaller unit. Record measurement equivalents in a two column table. For example, know that 1 ft is 12 times as long as 1 in. Express the length of a 4 ft snake as 48 in. Generate a conversion table for feet and inches listing the number pairs (1, 12), (2, 24), (3, 36), ...": 0.24508501589298248,
+      "Convert among different-sized standard measurement units within a given measurement system (e.g., convert 5 cm to 0.05 m), and use these conversions in solving multi-step, real world problems.": 0.18242551386356354,
+      "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.": 0.2689414322376251
+    }
+  },
+  {
+    "dialogue_idx": 140,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.38150280714035034,
+    "kc_probs": {
+      "Use the structure of an expression to identify ways to rewrite it. For example, see x^(4) \u2013 y^(4 )as (x^(2))^(2 )\u2013 (y^(2))^(2), thus recognizing it as a difference of squares that can be factored as (x^(2 )\u2013 y^(2))(x^(2 )+ y^(2)).": 0.29421496391296387,
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.": 0.4687906503677368
+    }
+  },
+  {
+    "dialogue_idx": 149,
+    "turn": 1,
+    "label": 0,
+    "pred_prob": 0.0035936026833951473,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.0035936026833951473
+    }
+  },
+  {
+    "dialogue_idx": 15,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.07585818320512772,
+    "kc_probs": {
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.": 0.07585818320512772
+    }
+  },
+  {
+    "dialogue_idx": 15,
+    "turn": 3,
+    "label": 0,
+    "pred_prob": 0.2948813736438751,
+    "kc_probs": {
+      "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 \u00d7 7.": 0.3208213150501251,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.2689414322376251
+    }
+  },
+  {
+    "dialogue_idx": 15,
+    "turn": 4,
+    "label": 0,
+    "pred_prob": 0.2383202388882637,
+    "kc_probs": {
+      "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 \u00d7 7.": 0.29421496391296387,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.18242551386356354
+    }
+  },
+  {
+    "dialogue_idx": 15,
+    "turn": 5,
+    "label": 0,
+    "pred_prob": 0.18781601637601852,
+    "kc_probs": {
+      "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 \u00d7 7.": 0.2689414322376251,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.10669060051441193
+    }
+  },
+  {
+    "dialogue_idx": 15,
+    "turn": 6,
+    "label": 0,
+    "pred_prob": 0.11920291185379028,
+    "kc_probs": {
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.": 0.11920291185379028
+    }
+  },
+  {
+    "dialogue_idx": 15,
+    "turn": 7,
+    "label": 0,
+    "pred_prob": 0.13296423852443695,
+    "kc_probs": {
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.": 0.13296423852443695
+    }
+  },
+  {
+    "dialogue_idx": 15,
+    "turn": 8,
+    "label": 1,
+    "pred_prob": 0.20480073988437653,
+    "kc_probs": {
+      "Determine the unknown whole number in a multiplication or division equation relating three whole numbers. For example, determine the unknown number that makes the equation true in each of the equations 8 \u00d7 ? = 48, 5 = \ufffd\ufffd \u00f7 3, 6 \u00d7 6 = ?.": 0.24508501589298248,
+      "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.": 0.16451646387577057
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.6924818754196167,
+    "kc_probs": {
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.": 0.6791787147521973,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.7057850360870361
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.10669060051441193,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.10669060051441193
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 3,
+    "label": 0,
+    "pred_prob": 0.4073334336280823,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.4073334336280823
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 4,
+    "label": 0,
+    "pred_prob": 0.562176525592804,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.562176525592804
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 5,
+    "label": 0,
+    "pred_prob": 0.22270014882087708,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.22270014882087708
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 6,
+    "label": 0,
+    "pred_prob": 0.3486451804637909,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.3486451804637909
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 7,
+    "label": 0,
+    "pred_prob": 0.18242551386356354,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.18242551386356354
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 8,
+    "label": 0,
+    "pred_prob": 0.14804719388484955,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.14804719388484955
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 9,
+    "label": 0,
+    "pred_prob": 0.04742587357759476,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.04742587357759476
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 10,
+    "label": 1,
+    "pred_prob": 0.4073334336280823,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.4073334336280823
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 11,
+    "label": 1,
+    "pred_prob": 0.3775406777858734,
+    "kc_probs": {
+      "Apply the properties of operations to generate equivalent expressions. For example, apply the distributive property to the expression 3 (2 + x) to produce the equivalent expression 6 + 3x; apply the distributive property to the expression 24x + 18y to produce the equivalent expression 6 (4x + 3y); apply properties of operations to y + y + y to produce the equivalent expression 3y.": 0.3775406777858734
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 12,
+    "label": 1,
+    "pred_prob": 0.45093943178653717,
+    "kc_probs": {
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.": 0.22270014882087708,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.6791787147521973
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 13,
+    "label": 0,
+    "pred_prob": 0.4399272948503494,
+    "kc_probs": {
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.": 0.3486451804637909,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.531209409236908
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 15,
+    "label": 0,
+    "pred_prob": 0.11920291185379028,
+    "kc_probs": {
+      "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b.": 0.11920291185379028
+    }
+  },
+  {
+    "dialogue_idx": 152,
+    "turn": 16,
+    "label": 1,
+    "pred_prob": 0.09534946084022522,
+    "kc_probs": {
+      "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b.": 0.09534946084022522
+    }
+  },
+  {
+    "dialogue_idx": 27,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.372424122877419,
+    "kc_probs": {
+      "Use a pair of perpendicular number lines, called axes, to define a coordinate system, with the intersection of the lines (the origin) arranged to coincide with the 0 on each line and a given point in the plane located by using an ordered pair of numbers, called its coordinates. Understand that the first number indicates how far to travel from the origin in the direction of one axis, and the second number indicates how far to travel in the direction of the second axis, with the convention that the names of the two axes and the coordinates correspond (e.g., x-axis and x-coordinate, y-axis and y-coordinate).": 0.4378235340118408,
+      "Apply the Pythagorean Theorem to find the distance between two points in a coordinate system.": 0.022977370768785477,
+      "Recognize and represent proportional relationships between quantities.": 0.3775406777858734,
+      "Find the point on a directed line segment between two given points that partitions the segment in a given ratio.": 0.6513549089431763
+    }
+  },
+  {
+    "dialogue_idx": 27,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.6697382032871246,
+    "kc_probs": {
+      "Recognize and represent proportional relationships between quantities.": 0.562176525592804,
+      "Find the point on a directed line segment between two given points that partitions the segment in a given ratio.": 0.7772998809814453
+    }
+  },
+  {
+    "dialogue_idx": 54,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.1733255099194745,
+    "kc_probs": {
+      "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 \u00d7 7.": 0.01590639166533947,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.004070138093084097,
+      "Fluently multiply and divide within 100, using strategies such as the relationship between multiplication and division (e.g., knowing that 8 \u00d7 5 = 40, one knows 40 \u00f7 5 = 8) or properties of operations. By the end of Grade 3, know from memory all products of two one-digit numbers.": 0.5
+    }
+  },
+  {
+    "dialogue_idx": 54,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.3441721436878045,
+    "kc_probs": {
+      "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each. For example, describe a context in which a total number of objects can be expressed as 5 \u00d7 7.": 0.2018132209777832,
+      "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem.": 0.053403329104185104,
+      "Fluently multiply and divide within 100, using strategies such as the relationship between multiplication and division (e.g., knowing that 8 \u00d7 5 = 40, one knows 40 \u00f7 5 = 8) or properties of operations. By the end of Grade 3, know from memory all products of two one-digit numbers.": 0.7772998809814453
+    }
+  },
+  {
+    "dialogue_idx": 3,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.04208773002028465,
+    "kc_probs": {
+      "Understand a fraction a/b with a > 1 as a sum of fractions 1/b.": 0.04208773002028465
+    }
+  },
+  {
+    "dialogue_idx": 3,
+    "turn": 2,
+    "label": 1,
+    "pred_prob": 0.7549149990081787,
+    "kc_probs": {
+      "Apply and extend previous understandings of division to divide unit fractions by whole numbers and whole numbers by unit fractions. (Students able to multiply fractions in general can develop strategies to divide fractions in general, by reasoning about the relationship between multiplication and division. But division of a fraction by a fraction is not a requirement at this grade.)": 0.7549149990081787
+    }
+  },
+  {
+    "dialogue_idx": 3,
+    "turn": 3,
+    "label": 1,
+    "pred_prob": 0.8933094143867493,
+    "kc_probs": {
+      "Apply and extend previous understandings of multiplication to multiply a fraction or whole number by a fraction.": 0.8933094143867493
+    }
+  },
+  {
+    "dialogue_idx": 7,
+    "turn": 2,
+    "label": 1,
+    "pred_prob": 0.6265314022699991,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.2018132209777832,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.7981867790222168,
+      "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers.": 0.6791787147521973,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.6513549089431763,
+      "Solve linear equations in one variable.": 0.6513549089431763,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.7772998809814453
+    }
+  },
+  {
+    "dialogue_idx": 65,
+    "turn": 1,
+    "label": 0,
+    "pred_prob": 0.05430866754613817,
+    "kc_probs": {
+      "Explain how the unit circle in the coordinate plane enables the extension of trigonometric functions to all real numbers, interpreted as radian measures of angles traversed counterclockwise around the unit circle.": 0.0019267345778644085,
+      "Use special triangles to determine geometrically the values of sine, cosine, tangent for \u03c0/3, \u03c0/4 and \u03c0/6, and use the unit circle to express the values of sine, cosines, and tangent for \u03c0\u2013x, \u03c0+x, and 2\u03c0\u2013x in terms of their values for x, where x is any real number.": 0.10669060051441193
+    }
+  },
+  {
+    "dialogue_idx": 128,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.2611126558234294,
+    "kc_probs": {
+      "Apply and extend previous understandings of multiplication to multiply a fraction or whole number by a fraction.": 0.4687906503677368,
+      "Interpret multiplication as scaling (resizing), by: - Explaining why multiplying a given number by a fraction greater than 1 results in a product greater than the given number (recognizing multiplication by whole numbers greater than 1 as a familiar case); explaining why multiplying a given number by a fraction less than 1 results in a product smaller than the given number; and relating the principle of fraction equivalence a/b = (n\u00d7a)/(n\u00d7b) to the effect of multiplying a/b by 1. - Comparing the size of a product to the size of one factor on the basis of the size of the other factor, without performing the indicated multiplication.": 0.020332353189587593,
+      "Solve real world problems involving multiplication of fractions and mixed numbers, e.g., by using visual fraction models or equations to represent the problem.": 0.29421496391296387
+    }
+  },
+  {
+    "dialogue_idx": 49,
+    "turn": 1,
+    "label": 0,
+    "pred_prob": 0.45379912853240967,
+    "kc_probs": {
+      "Recognize that in a multi-digit number, a digit in one place represents 10 times as much as it represents in the place to its right and 1/10 of what it represents in the place to its left.": 0.2018132209777832,
+      "Read, write, and compare decimals to thousandths.": 0.7057850360870361
+    }
+  },
+  {
+    "dialogue_idx": 26,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.7578843832015991,
+    "kc_probs": {
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.": 0.622459352016449,
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems.": 0.8933094143867493
+    }
+  },
+  {
+    "dialogue_idx": 26,
+    "turn": 3,
+    "label": 0,
+    "pred_prob": 0.7230551838874817,
+    "kc_probs": {
+      "Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.": 0.531209409236908,
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems.": 0.9149009585380554
+    }
+  },
+  {
+    "dialogue_idx": 116,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.5152450799942017,
+    "kc_probs": {
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.": 0.5926666259765625,
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.": 0.4378235340118408
+    }
+  },
+  {
+    "dialogue_idx": 116,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.8700670301914215,
+    "kc_probs": {
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.": 0.9046505093574524,
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.": 0.8354835510253906
+    }
+  },
+  {
+    "dialogue_idx": 116,
+    "turn": 3,
+    "label": 0,
+    "pred_prob": 0.6542546451091766,
+    "kc_probs": {
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.": 0.7772998809814453,
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.": 0.531209409236908
+    }
+  },
+  {
+    "dialogue_idx": 116,
+    "turn": 4,
+    "label": 0,
+    "pred_prob": 0.7214867770671844,
+    "kc_probs": {
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.": 0.8807970285415649,
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.": 0.562176525592804
+    }
+  },
+  {
+    "dialogue_idx": 116,
+    "turn": 5,
+    "label": 1,
+    "pred_prob": 0.7635549306869507,
+    "kc_probs": {
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.": 0.9046505093574524,
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.": 0.622459352016449
+    }
+  },
+  {
+    "dialogue_idx": 116,
+    "turn": 6,
+    "label": 0,
+    "pred_prob": 0.7429880201816559,
+    "kc_probs": {
+      "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.": 0.8933094143867493,
+      "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.": 0.5926666259765625
+    }
+  },
+  {
+    "dialogue_idx": 107,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.17347098886966705,
+    "kc_probs": {
+      "Use the four operations to solve word problems involving distances, intervals of time, liquid volumes, masses of objects, and money, including problems involving simple fractions or decimals, and problems that require expressing measurements given in a larger unit in terms of a smaller unit. Represent measurement quantities using diagrams such as number line diagrams that feature a measurement scale.": 0.16451646387577057,
+      "Convert among different-sized standard measurement units within a given measurement system (e.g., convert 5 cm to 0.05 m), and use these conversions in solving multi-step, real world problems.": 0.18242551386356354
+    }
+  },
+  {
+    "dialogue_idx": 107,
+    "turn": 2,
+    "label": 1,
+    "pred_prob": 0.8519527316093445,
+    "kc_probs": {
+      "Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle.": 0.8519527316093445
+    }
+  },
+  {
+    "dialogue_idx": 107,
+    "turn": 3,
+    "label": 1,
+    "pred_prob": 0.8354835510253906,
+    "kc_probs": {
+      "Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle.": 0.8354835510253906
+    }
+  },
+  {
+    "dialogue_idx": 107,
+    "turn": 4,
+    "label": 1,
+    "pred_prob": 0.6405492275953293,
+    "kc_probs": {
+      "Know relative sizes of measurement units within one system of units including km, m, cm; kg, g; lb, oz.; l, ml; hr, min, sec. Within a single system of measurement, express measurements in a larger unit in terms of a smaller unit. Record measurement equivalents in a two column table. For example, know that 1 ft is 12 times as long as 1 in. Express the length of a 4 ft snake as 48 in. Generate a conversion table for feet and inches listing the number pairs (1, 12), (2, 24), (3, 36), ...": 0.3486451804637909,
+      "Convert among different-sized standard measurement units within a given measurement system (e.g., convert 5 cm to 0.05 m), and use these conversions in solving multi-step, real world problems.": 0.9324532747268677
+    }
+  },
+  {
+    "dialogue_idx": 107,
+    "turn": 5,
+    "label": 0,
+    "pred_prob": 0.9399133324623108,
+    "kc_probs": {
+      "Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle.": 0.9399133324623108
+    }
+  },
+  {
+    "dialogue_idx": 107,
+    "turn": 6,
+    "label": 1,
+    "pred_prob": 0.9046505093574524,
+    "kc_probs": {
+      "Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle.": 0.9046505093574524
+    }
+  },
+  {
+    "dialogue_idx": 107,
+    "turn": 7,
+    "label": 1,
+    "pred_prob": 0.7947599689165751,
+    "kc_probs": {
+      "Use the four operations to solve word problems involving distances, intervals of time, liquid volumes, masses of objects, and money, including problems involving simple fractions or decimals, and problems that require expressing measurements given in a larger unit in terms of a smaller unit. Represent measurement quantities using diagrams such as number line diagrams that feature a measurement scale.": 0.6791787147521973,
+      "Convert among different-sized standard measurement units within a given measurement system (e.g., convert 5 cm to 0.05 m), and use these conversions in solving multi-step, real world problems.": 0.9740425944328308,
+      "Solve real-world and mathematical problems involving area, volume and surface area of two- and three-dimensional objects composed of triangles, quadrilaterals, polygons, cubes, and right prisms.": 0.7310585975646973
+    }
+  },
+  {
+    "dialogue_idx": 112,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.07464227401275518,
+    "kc_probs": {
+      "Explain a proof of the Pythagorean Theorem and its converse.": 2.1444948288262822e-05,
+      "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.": 0.14804719388484955,
+      "Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems.": 0.07585818320512772
+    }
+  },
+  {
+    "dialogue_idx": 95,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.010986942797899246,
+    "kc_probs": {
+      "Draw (freehand, with ruler and protractor, and with technology) geometric shapes with given conditions. Focus on constructing triangles from three measures of angles or sides, noticing when the conditions determine a unique triangle, more than one triangle, or no triangle.": 0.010986942797899246
+    }
+  },
+  {
+    "dialogue_idx": 95,
+    "turn": 2,
+    "label": 1,
+    "pred_prob": 0.31150606530718505,
+    "kc_probs": {
+      "Write, read, and evaluate expressions in which letters stand for numbers.": 0.622459352016449,
+      "Explain a proof of the Pythagorean Theorem and its converse.": 0.000552778597921133
+    }
+  },
+  {
+    "dialogue_idx": 95,
+    "turn": 3,
+    "label": 1,
+    "pred_prob": 0.042217833921313286,
+    "kc_probs": {
+      "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.": 0.07585818320512772,
+      "Use geometric shapes, their measures, and their properties to describe objects (e.g., modeling a tree trunk or a human torso as a cylinder).": 0.008577484637498856
+    }
+  },
+  {
+    "dialogue_idx": 95,
+    "turn": 5,
+    "label": 1,
+    "pred_prob": 0.9011988043785095,
+    "kc_probs": {
+      "Write, read, and evaluate expressions in which letters stand for numbers.": 0.9669140577316284,
+      "Apply the Pythagorean Theorem to determine unknown side lengths in right triangles in real-world and mathematical problems in two and three dimensions.": 0.8354835510253906
+    }
+  },
+  {
+    "dialogue_idx": 95,
+    "turn": 6,
+    "label": 1,
+    "pred_prob": 0.957912266254425,
+    "kc_probs": {
+      "Write and evaluate numerical expressions involving whole-number exponents.": 0.957912266254425
+    }
+  },
+  {
+    "dialogue_idx": 95,
+    "turn": 7,
+    "label": 1,
+    "pred_prob": 0.622459352016449,
+    "kc_probs": {
+      "Solve multi-step real-life and mathematical problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals), using tools strategically. Apply properties of operations to calculate with numbers in any form; convert between forms as appropriate; and assess the reasonableness of answers using mental computation and estimation strategies. For example: If a woman making $25 an hour gets a 10% raise, she will make an additional 1/10 of her salary an hour, or $2.50, for a new salary of $27.50. If you want to place a towel bar 9 3/4 inches long in the center of a door that is 27 1/2 inches wide, you will need to place the bar about 9 inches from each edge; this estimate can be used as a check on the exact computation.": 0.622459352016449
+    }
+  },
+  {
+    "dialogue_idx": 95,
+    "turn": 8,
+    "label": 1,
+    "pred_prob": 0.5926666259765625,
+    "kc_probs": {
+      "Use square root and cube root symbols to represent solutions to equations of the form x^(2) = p and x^(3) = p, where p is a positive rational number. Evaluate square roots of small perfect squares and cube roots of small perfect cubes. Know that \u00d62 is irrational.": 0.5926666259765625
+    }
+  },
+  {
+    "dialogue_idx": 62,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.28774062544107437,
+    "kc_probs": {
+      "Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials.": 0.4687906503677368,
+      "Identify zeros of polynomials when suitable factorizations are available, and use the zeros to construct a rough graph of the function defined by the polynomial.": 0.10669060051441193
+    }
+  },
+  {
+    "dialogue_idx": 62,
+    "turn": 2,
+    "label": 1,
+    "pred_prob": 0.4687906503677368,
+    "kc_probs": {
+      "Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials.": 0.4687906503677368
+    }
+  },
+  {
+    "dialogue_idx": 103,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.008577484637498856,
+    "kc_probs": {
+      "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane; derive the equation y = mx for a line through the origin and the equation y = mx + b for a line intercepting the vertical axis at b.": 0.008577484637498856
+    }
+  },
+  {
+    "dialogue_idx": 103,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.02931223064661026,
+    "kc_probs": {
+      "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane; derive the equation y = mx for a line through the origin and the equation y = mx + b for a line intercepting the vertical axis at b.": 0.02931223064661026
+    }
+  },
+  {
+    "dialogue_idx": 103,
+    "turn": 3,
+    "label": 1,
+    "pred_prob": 0.10626204684376717,
+    "kc_probs": {
+      "Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions with rational coefficients.": 0.08509904891252518,
+      "Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related. For example, a + 0.05a = 1.05a means that \u201cincrease by 5%\u201d is the same as \u201cmultiply by 1.05.\u201d": 0.22270014882087708,
+      "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane; derive the equation y = mx for a line through the origin and the equation y = mx + b for a line intercepting the vertical axis at b.": 0.010986942797899246
+    }
+  },
+  {
+    "dialogue_idx": 103,
+    "turn": 4,
+    "label": 1,
+    "pred_prob": 0.18300281868626675,
+    "kc_probs": {
+      "Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions with rational coefficients.": 0.29421496391296387,
+      "Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related. For example, a + 0.05a = 1.05a means that \u201cincrease by 5%\u201d is the same as \u201cmultiply by 1.05.\u201d": 0.24508501589298248,
+      "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane; derive the equation y = mx for a line through the origin and the equation y = mx + b for a line intercepting the vertical axis at b.": 0.00970847625285387
+    }
+  },
+  {
+    "dialogue_idx": 103,
+    "turn": 5,
+    "label": 1,
+    "pred_prob": 0.10132960105935733,
+    "kc_probs": {
+      "Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions with rational coefficients.": 0.13296423852443695,
+      "Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related. For example, a + 0.05a = 1.05a means that \u201cincrease by 5%\u201d is the same as \u201cmultiply by 1.05.\u201d": 0.14804719388484955,
+      "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane; derive the equation y = mx for a line through the origin and the equation y = mx + b for a line intercepting the vertical axis at b.": 0.022977370768785477
+    }
+  },
+  {
+    "dialogue_idx": 103,
+    "turn": 6,
+    "label": 1,
+    "pred_prob": 0.13923992092410722,
+    "kc_probs": {
+      "Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions with rational coefficients.": 0.10669060051441193,
+      "Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related. For example, a + 0.05a = 1.05a means that \u201cincrease by 5%\u201d is the same as \u201cmultiply by 1.05.\u201d": 0.2689414322376251,
+      "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane; derive the equation y = mx for a line through the origin and the equation y = mx + b for a line intercepting the vertical axis at b.": 0.04208773002028465
+    }
+  },
+  {
+    "dialogue_idx": 103,
+    "turn": 7,
+    "label": 1,
+    "pred_prob": 0.35861941426992416,
+    "kc_probs": {
+      "Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions with rational coefficients.": 0.4378235340118408,
+      "Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related. For example, a + 0.05a = 1.05a means that \u201cincrease by 5%\u201d is the same as \u201cmultiply by 1.05.\u201d": 0.562176525592804,
+      "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane; derive the equation y = mx for a line through the origin and the equation y = mx + b for a line intercepting the vertical axis at b.": 0.07585818320512772
+    }
+  },
+  {
+    "dialogue_idx": 8,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.25967806453506154,
+    "kc_probs": {
+      "Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.": 0.053403329104185104,
+      "Solve simple rational and radical equations in one variable, and give examples showing how extraneous solutions may arise.": 0.13296423852443695,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.5926666259765625
+    }
+  },
+  {
+    "dialogue_idx": 117,
+    "turn": 1,
+    "label": 0,
+    "pred_prob": 0.562176525592804,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.562176525592804
+    }
+  },
+  {
+    "dialogue_idx": 117,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.24508501589298248,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.24508501589298248
+    }
+  },
+  {
+    "dialogue_idx": 117,
+    "turn": 3,
+    "label": 0,
+    "pred_prob": 0.3208213150501251,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.3208213150501251
+    }
+  },
+  {
+    "dialogue_idx": 117,
+    "turn": 4,
+    "label": 1,
+    "pred_prob": 0.4073334336280823,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.4073334336280823
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 2,
+    "label": 0,
+    "pred_prob": 0.22696807980537415,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.11920291185379028,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.3208213150501251,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.3486451804637909,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.11920291185379028
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 3,
+    "label": 1,
+    "pred_prob": 0.1081180414184928,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.053403329104185104,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.16451646387577057,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.09534946084022522,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.11920291185379028
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 4,
+    "label": 1,
+    "pred_prob": 0.47468844428658485,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.24508501589298248,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.531209409236908,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.5,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.622459352016449
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 5,
+    "label": 1,
+    "pred_prob": 0.6574938893318176,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.4687906503677368,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.6513549089431763,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.7549149990081787,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.7549149990081787
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 6,
+    "label": 0,
+    "pred_prob": 0.8278789669275284,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.622459352016449,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.8519527316093445,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.9324532747268677,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.9046505093574524
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 7,
+    "label": 0,
+    "pred_prob": 0.6913898289203644,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.4378235340118408,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.7057850360870361,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.7549149990081787,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.8670357465744019
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 8,
+    "label": 0,
+    "pred_prob": 0.6783435270190239,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.3486451804637909,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.7310585975646973,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.8354835510253906,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.7981867790222168
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 9,
+    "label": 0,
+    "pred_prob": 0.677106961607933,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.5,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.5926666259765625,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.7981867790222168,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.8175744414329529
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 10,
+    "label": 1,
+    "pred_prob": 0.6893967539072037,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.4687906503677368,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.7057850360870361,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.8519527316093445,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.7310585975646973
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 11,
+    "label": 1,
+    "pred_prob": 0.6323113590478897,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.4073334336280823,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.5926666259765625,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.7310585975646973,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.7981867790222168
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 14,
+    "label": 1,
+    "pred_prob": 0.685429073870182,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.3775406777858734,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.622459352016449,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.8175744414329529,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.9241418242454529
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 15,
+    "label": 1,
+    "pred_prob": 0.6828086227178574,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.4073334336280823,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.622459352016449,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.7772998809814453,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.9241418242454529
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 16,
+    "label": 0,
+    "pred_prob": 0.7809190452098846,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.5926666259765625,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.7549149990081787,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.8519527316093445,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.9241418242454529
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 17,
+    "label": 1,
+    "pred_prob": 0.6773684918880463,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.4378235340118408,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.5926666259765625,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.7981867790222168,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.8807970285415649
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 18,
+    "label": 1,
+    "pred_prob": 0.7847922295331955,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.5926666259765625,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.6791787147521973,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.9046505093574524,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.9626730680465698
+    }
+  },
+  {
+    "dialogue_idx": 137,
+    "turn": 19,
+    "label": 1,
+    "pred_prob": 0.8412249833345413,
+    "kc_probs": {
+      "Understand solving an equation or inequality as a process of answering a question: which values from a specified set, if any, make the equation or inequality true? Use substitution to determine whether a given number in a specified set makes an equation or inequality true.": 0.7057850360870361,
+      "Use variables to represent numbers and write expressions when solving a real-world or mathematical problem; understand that a variable can represent an unknown number, or, depending on the purpose at hand, any number in a specified set.": 0.7772998809814453,
+      "Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.": 0.9149009585380554,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.9669140577316284
+    }
+  },
+  {
+    "dialogue_idx": 114,
+    "turn": 1,
+    "label": 0,
+    "pred_prob": 0.031316263135522604,
+    "kc_probs": {
+      "Distinguish between defining attributes (e.g., triangles are closed and three-sided) versus non-defining attributes (e.g., color, orientation, overall size); build and draw shapes to possess defining attributes.": 0.02595735527575016,
+      "Recognize and draw shapes having specified attributes, such as a given number of angles or a given number of equal faces. (Sizes are compared directly or visually, not compared by measuring.) Identify triangles, quadrilaterals, pentagons, hexagons, and cubes.": 0.053403329104185104,
+      "Draw points, lines, line segments, rays, angles (right, acute, obtuse), and perpendicular and parallel lines. Identify these in two-dimensional figures.": 0.037326883524656296,
+      "Identify and describe relationships among inscribed angles, radii, and chords. Include the relationship between central, inscribed, and circumscribed angles; inscribed angles on a diameter are right angles; the radius of a circle is perpendicular to the tangent where the radius intersects the circle.": 0.008577484637498856
+    }
+  },
+  {
+    "dialogue_idx": 76,
+    "turn": 1,
+    "label": 1,
+    "pred_prob": 0.03903642948716879,
+    "kc_probs": {
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.01798621006309986,
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.06008664891123772
+    }
+  },
+  {
+    "dialogue_idx": 76,
+    "turn": 2,
+    "label": 1,
+    "pred_prob": 0.22540230804588646,
+    "kc_probs": {
+      "Interpret expressions that represent a quantity in terms of its context.": 0.531209409236908,
+      "Use the structure of an expression to identify ways to rewrite it. For example, see x^(4) \u2013 y^(4 )as (x^(2))^(2 )\u2013 (y^(2))^(2), thus recognizing it as a difference of squares that can be factored as (x^(2 )\u2013 y^(2))(x^(2 )+ y^(2)).": 0.2018132209777832,
+      "Prove the Pythagorean identity sin^(2)(\u03b8) + cos^(2)(\u03b8) = 1 and use it to find sin(\u03b8), cos(\u03b8),or tan(\u03b8) given sin(\u03b8), cos(\u03b8), or tan(\u03b8) and the quadrant of the angle.": 0.004070138093084097,
+      "Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.": 0.16451646387577057
+    }
+  },
+  {
+    "dialogue_idx": 76,
+    "turn": 3,
+    "label": 1,
+    "pred_prob": 0.1736101120710373,
+    "kc_probs": {
+      "Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions with rational coefficients.": 0.11920291185379028,
+      "Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related. For example, a + 0.05a = 1.05a means that \u201cincrease by 5%\u201d is the same as \u201cmultiply by 1.05.\u201d": 0.13296423852443695,
+      "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.": 0.2689414322376251,
+      "Interpret expressions that represent a quantity in terms of its context.": 0.18242551386356354,
+      "Use the structure of an expression to identify ways to rewrite it. For example, see x^(4) \u2013 y^(4 )as (x^(2))^(2 )\u2013 (y^(2))^(2), thus recognizing it as a difference of squares that can be factored as (x^(2 )\u2013 y^(2))(x^(2 )+ y^(2)).": 0.16451646387577057
+    }
+  }
+]
