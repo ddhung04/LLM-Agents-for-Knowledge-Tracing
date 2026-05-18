@@ -240,7 +240,6 @@ Mở rộng từ [LLMKT (Scarlatos et al., LAK 2025)](https://arxiv.org/abs/2503
 - [Scarlatos et al. (2025)](https://arxiv.org/abs/2503.11733) — Paper gốc LLMKT
 - [umass-ml4ed/dialogue-kt](https://github.com/umass-ml4ed/dialogue-kt) — Codebase nền tảng
 - [Chu et al. (2025)](https://arxiv.org/abs/2503.11733) — Survey LLM Agents in Education
-- Đặng Văn Khải (2025) — Khóa luận tham khảo về Generative AI trong giáo dục
 
 ## License
 
